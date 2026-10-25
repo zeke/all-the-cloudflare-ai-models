@@ -61,7 +61,7 @@ The updater reads a complete, non-truncated Git tree, fetches every JSON file at
 
 Output is sorted by `id` with stable JSON formatting. There are no generated timestamps. An unchanged model list produces no commit, version bump, or new release. Changed data gets a patch version. Major versions are reserved for breaking format changes; optional format additions use minor versions.
 
-Data and version are pushed before publishing. If publishing fails, the next run retries that committed version. Registry errors fail the release; only an explicit 404 is treated as unpublished. An already published version must have identical tarball integrity. Concurrent runs are serialized, and a conflicting push stops before publishing.
+Data and version are pushed before publishing. If publishing fails, the next run retries that committed version. Registry errors fail the release; only an explicit 404 is treated as unpublished. An already published version must have identical packaged files (npm verifies the downloaded tarball integrity). Concurrent runs are serialized, and a conflicting push stops before publishing.
 
 ## npm publishing setup
 
