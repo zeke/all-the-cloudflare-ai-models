@@ -1,0 +1,1059 @@
+{
+  "repository": "https://github.com/cloudflare/cloudflare-docs",
+  "revision": "ec32a21c71d1aa8747ef270e180ef0d31e5231f6",
+  "catalog": "https://developers.cloudflare.com/ai/models/",
+  "counts": {
+    "workers-ai": 73,
+    "ai-gateway": 189
+  },
+  "files": [
+    {
+      "path": "src/content/catalog-models/alibaba-hh1-i2v.json",
+      "sha": "558869e5599cf6d9c3635def0af7e650b1d2ef32"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-hh1-t2v.json",
+      "sha": "9baebaad409751e9246cd3f8983ff9331589594a"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-hh1.1-i2v.json",
+      "sha": "93a6217a9e435c203a3359e1bfe2277d9112c427"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-hh1.1-r2v.json",
+      "sha": "bd98384197c5fe4f53560c65bcbf6080b3c34b60"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-hh1.1-t2v.json",
+      "sha": "e096bd71f7e0893c84c5597ab77673a694eff942"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-qwen-image-3.0-pro.json",
+      "sha": "9f39a11d50886f04d38406ef8c365f1bc908de30"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-qwen3-max.json",
+      "sha": "af8219c5c3a6a185cea02d06272dbe4fd2a16543"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-qwen3.5-397b-a17b.json",
+      "sha": "1696bdf32dee3d9a9888947b8a707832da632ec2"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-qwen3.7-max.json",
+      "sha": "60f7ab306522f7a15728ad2dee49c8c97d7be44d"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-qwen3.7-plus.json",
+      "sha": "ad8b8a968f04b28e3dd1fc448ac0ef8a05567b0d"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-qwen3.8-max.json",
+      "sha": "298f26a892571abd5deb452ebdd72509915ad00d"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-wan-2.6-image.json",
+      "sha": "80fc557de6657dfc60b29a792c2e4707e675cc25"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-wan-2.7-i2v.json",
+      "sha": "30a26771195a74a6fc7300c705337a302e97529f"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-wan-3.0-prime.json",
+      "sha": "9eec44d7b771a0cbf7a323951b8438472f013959"
+    },
+    {
+      "path": "src/content/catalog-models/alibaba-wan-3.0.json",
+      "sha": "4f2998ace5a27c76a0d38d5da108147efdc761e1"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-fable-5.1.json",
+      "sha": "133d663c0e93aed893b21eea5acecc6832c26d9e"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-fable-5.json",
+      "sha": "edd0dda5ba7ad436dba874b3f4df5c814ffe11c9"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-haiku-4.5.json",
+      "sha": "e13f1b876594f9593dc6d7ef1016718dc1103526"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-haiku-5.5.json",
+      "sha": "aa02de340bd826ae30a4ed6ad38e46a3f49ed418"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-opus-4.5.json",
+      "sha": "f2fbb853b751ba45b606d9fa49d7ddf1c08acfd3"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-opus-4.6.json",
+      "sha": "58a9571ad3406e7eec949fb7334a2b28cf163ad5"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-opus-4.7.json",
+      "sha": "24d409567e56c4f552c9a00db73e45f6d6cf2acd"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-opus-4.8.json",
+      "sha": "6cb8056d43eab0fc1653aca9626647a17b086b46"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-opus-5.5.json",
+      "sha": "820274e693c49661566dc2567f17a69b0845409d"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-opus-5.json",
+      "sha": "81f636d0ccf0d4c18cc110793c7936b1d7a3e1c3"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-sonnet-4.5.json",
+      "sha": "ec0df7b0ba991372c5050d2ab57418f8e832fbd6"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-sonnet-4.6.json",
+      "sha": "35845b700b02db8959e90bb1187df37e97714b0a"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-sonnet-5.5.json",
+      "sha": "e183dc3b9b4ee0306db519763cda9d05570f7202"
+    },
+    {
+      "path": "src/content/catalog-models/anthropic-claude-sonnet-5.json",
+      "sha": "08af119797a9f465a9bf574242e4220dd04df0f2"
+    },
+    {
+      "path": "src/content/catalog-models/assemblyai-universal-3-pro.json",
+      "sha": "125729d2051f7397614d509ddbb63b9752d3ee72"
+    },
+    {
+      "path": "src/content/catalog-models/assemblyai-universal-3.5-pro.json",
+      "sha": "3f366585eeb5406f3cf1c01ba98888520d7b057d"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-1-kontext-max.json",
+      "sha": "f7ba2bbd49d0b85ffff000039aaa964c5733e2e3"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-1-kontext-pro.json",
+      "sha": "870b2dd64a18da0d12dec56d5d69dcf22669d43f"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-2-flex.json",
+      "sha": "11ffa50f31049d0e90d3e54a48fd4f9f3af02cdb"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-2-max.json",
+      "sha": "860e996bd99e54687d39d80178df8e40e1dc84a1"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-2-pro-preview.json",
+      "sha": "4178a1385e3445bfdb8f44df91025c86342ce4a6"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-3-image-klein.json",
+      "sha": "e90cefd95b00e0313334b1e5e047d33357beb159"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-3-video.json",
+      "sha": "599be753cc279c7cb18daeaa71217a43c7e4aa2b"
+    },
+    {
+      "path": "src/content/catalog-models/black-forest-labs-flux-video-upscale.json",
+      "sha": "bbd92d972bc133bc61f29dadcbaa28be84bda63d"
+    },
+    {
+      "path": "src/content/catalog-models/bria-ad-delayer.json",
+      "sha": "eeaf19e36e66582a62785d52942f206bd01bf222"
+    },
+    {
+      "path": "src/content/catalog-models/bria-fibo-edit-1.5.json",
+      "sha": "c6e55c8d29fb16c3f25bbce7ba58768e182d2f9a"
+    },
+    {
+      "path": "src/content/catalog-models/bria-fibo-generate-1.5.json",
+      "sha": "d03b1ce07b569ba1efa83ff0ca3335f19207cf5d"
+    },
+    {
+      "path": "src/content/catalog-models/bria-remove-background.json",
+      "sha": "6f3f175258f3e754f68743659e9e6189f0462be3"
+    },
+    {
+      "path": "src/content/catalog-models/bria-v-rmbg-3.0.json",
+      "sha": "f20668a36b3746823e2a99b2b61628e27f943bd4"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedance-2.0-fast.json",
+      "sha": "9bbfd67961273175922d55e1ff1fc96540af7513"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedance-2.0-mini.json",
+      "sha": "e0f2389ec906146776d77a66dbf122850bdc9004"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedance-2.0.json",
+      "sha": "fd1a92f2dd77919ce8f97c9cfb6d01c9bc818e59"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedance-2.5.json",
+      "sha": "faf859464bc9ee603905e3c8e0d55a1ee8ee716d"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedream-4.0.json",
+      "sha": "b0dd275088c563c337a3b9ebf2d1ecbf302dfa5b"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedream-4.5.json",
+      "sha": "21f208ab7066512c55243195985be9de9aa233ea"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedream-5-lite.json",
+      "sha": "6d200ddabc52728d67cb3cec37cf85f6eaec8f6d"
+    },
+    {
+      "path": "src/content/catalog-models/bytedance-seedream-5-pro.json",
+      "sha": "17e7f048d34e9a1e75624aacbb3bc78d5dcb1c7a"
+    },
+    {
+      "path": "src/content/catalog-models/deepseek-deepseek-v4-pro.json",
+      "sha": "138670b8449f0171316b8f27221f52368be7c93b"
+    },
+    {
+      "path": "src/content/catalog-models/elevenlabs-eleven-flash-v2-5.json",
+      "sha": "d787016a82c2b1af1927bea0b23a5b65d905799d"
+    },
+    {
+      "path": "src/content/catalog-models/elevenlabs-eleven-multilingual-v2.json",
+      "sha": "a16a8431236b68e79328c99a5d35fc903ba23d41"
+    },
+    {
+      "path": "src/content/catalog-models/elevenlabs-eleven-turbo-v2-5.json",
+      "sha": "952d001319b1d702d6a97e18f861e9d00e7a9d6b"
+    },
+    {
+      "path": "src/content/catalog-models/elevenlabs-eleven-v3.json",
+      "sha": "1e20f170b639ed67d9685616043f8dff63fa31ab"
+    },
+    {
+      "path": "src/content/catalog-models/elevenlabs-music-v2.json",
+      "sha": "5a2302f729627fce4344d8bd28b11362f1f24f78"
+    },
+    {
+      "path": "src/content/catalog-models/fireworks-ember-1.json",
+      "sha": "68be7e7a583aee4cc752945a8e39802a5a671cc9"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-2.5-flash-lite.json",
+      "sha": "ea6152d99b1c460d7e79f1e7a95af3b2a54ee759"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-2.5-flash.json",
+      "sha": "be82afa4456efecb2376abaf48212490019dcdc8"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-2.5-pro.json",
+      "sha": "657d4bf1cf192e535e7a370559811a3f9511b53c"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3-flash.json",
+      "sha": "c05dba3867bf0eb2a5acda004e79947efbf95ebe"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.1-flash-lite.json",
+      "sha": "04c9c14fad72ccf5aa4c8aa3cbcce7f104215c45"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.1-flash-tts.json",
+      "sha": "7d440ceeda62c8d0a2d110d1210f39de10254fc2"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.1-pro.json",
+      "sha": "45db11768820f7143de21190cd4ab3e7b9ea25f3"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.5-flash-lite.json",
+      "sha": "6e0d31048454489f3eabf3d5485f12e673072c3c"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.5-flash.json",
+      "sha": "3b6ffe747c99fa67376b205b1f1a4cd3426ee2c6"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.6-flash.json",
+      "sha": "9cb8a2307273beccbe6987e81d87b895c04e5ae6"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.7-flash.json",
+      "sha": "d793171c6c57f83631a90ca2d2d29d5bc0306990"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.8-flash-lite-tts.json",
+      "sha": "22588b09a422bf7b3aa15bb8f415d98523ef5bcc"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.8-flash-tts.json",
+      "sha": "aceb2feae51b6ea7a3db7c243ef9432ab093db5e"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-3.8-flash.json",
+      "sha": "6fd90dd319e63ff56f749a4918bab92bc8404ad4"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-4-argon.json",
+      "sha": "08c84a70f981c78e9f8134db949e9c4a44dced33"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-omni-1.1-flash.json",
+      "sha": "6131d8c96026a72efb53a4ca8a650bf23de57b30"
+    },
+    {
+      "path": "src/content/catalog-models/google-gemini-omni-flash.json",
+      "sha": "b5c2465c451167587724526d0f79590496b7f73a"
+    },
+    {
+      "path": "src/content/catalog-models/google-nano-banana-2-lite.json",
+      "sha": "7819ab2df69a2e6a0de42609b6745226dfccbde0"
+    },
+    {
+      "path": "src/content/catalog-models/google-nano-banana-2.1.json",
+      "sha": "f733066b82cf003537117acfb0fa9436de9effe8"
+    },
+    {
+      "path": "src/content/catalog-models/google-nano-banana-2.json",
+      "sha": "d22dda5bdd2260eaafa990d191b3123fa6dfee6f"
+    },
+    {
+      "path": "src/content/catalog-models/google-nano-banana-pro.json",
+      "sha": "0e1b07289aa988d6d8eb6f455a2404a26274ce18"
+    },
+    {
+      "path": "src/content/catalog-models/google-nano-banana.json",
+      "sha": "7108cae32d44ee07aa70ae0b56dc363a91e9837c"
+    },
+    {
+      "path": "src/content/catalog-models/google-veo-3.1-fast.json",
+      "sha": "5b5ad8f8b276932625645229bf702af777feb7c4"
+    },
+    {
+      "path": "src/content/catalog-models/google-veo-3.1.json",
+      "sha": "229eba9bcbcc016fe42a2308ec09178d7fe840a6"
+    },
+    {
+      "path": "src/content/catalog-models/inworld-tts-1.5-max.json",
+      "sha": "e23cdc8d616263bfa4db6f5b6e0ada5d45d4ad89"
+    },
+    {
+      "path": "src/content/catalog-models/inworld-tts-1.5-mini.json",
+      "sha": "c42ecf008c2dcec930aafd0d65be7f7f9978d6fa"
+    },
+    {
+      "path": "src/content/catalog-models/inworld-tts-2.json",
+      "sha": "98401c4cae009b46a139f1e5802535ca259f8f59"
+    },
+    {
+      "path": "src/content/catalog-models/krea-krea-2-large.json",
+      "sha": "adb922212746e7da90016c43f27b0c336c23f91d"
+    },
+    {
+      "path": "src/content/catalog-models/krea-krea-2-medium-turbo.json",
+      "sha": "2462ee7afc72d44a5377f03f7f71515af8334aea"
+    },
+    {
+      "path": "src/content/catalog-models/krea-krea-2-medium.json",
+      "sha": "ec0106da4478889ffb2b7a8568c7df99f31a669e"
+    },
+    {
+      "path": "src/content/catalog-models/krea-krea-3.json",
+      "sha": "984930cc6c96c48924d9f46815ef36516757a0a2"
+    },
+    {
+      "path": "src/content/catalog-models/lightricks-ltx-2-5-fast.json",
+      "sha": "388f3e36b9d79c1713928699795a83dd2026dd96"
+    },
+    {
+      "path": "src/content/catalog-models/meta-muse-spark-1.1.json",
+      "sha": "aa076b4bddaa8dde94b8472d163fd0cbbf4654d7"
+    },
+    {
+      "path": "src/content/catalog-models/meta-muse-spark-1.2.json",
+      "sha": "c35acefff59d7c8a2ced0212fd6c6422261dcfed"
+    },
+    {
+      "path": "src/content/catalog-models/meta-muse-spark-1.3.json",
+      "sha": "4ae4d31d627fd07ef96e7869d7a8a1949380af6a"
+    },
+    {
+      "path": "src/content/catalog-models/meta-muse-spark-open.json",
+      "sha": "6424956dc7835db5ae1836dec7d0f5cc80843f8c"
+    },
+    {
+      "path": "src/content/catalog-models/meta-muse-wonder-1.0.json",
+      "sha": "b4221aaf883024257ed4910e16536be470e0e0f7"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-h3-max.json",
+      "sha": "f17498e4fec63280382ce724570e7710bfae99ed"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-h3.json",
+      "sha": "4035897da7e6b9fd2fcbab40c5a5d58cd32bb618"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-hailuo-2.3-fast.json",
+      "sha": "45e48fdff20f49fed3e2c36203b7021db0ee6a8b"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-hailuo-2.3.json",
+      "sha": "58ce804620fdd1328e93421311922410d8f3301e"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-m2.7.json",
+      "sha": "daf567fb802cb7bac6f98e39ccc7cbf9cc547b0b"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-m3.json",
+      "sha": "ecd047b66f49c817108286ef9e9c6fcd7f1f11c0"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-music-2.6.json",
+      "sha": "a0b2298bc765275ea8bd7d5e6d65614d096403ae"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-speech-2.8-hd.json",
+      "sha": "fb91a4a060c69c9b41e775e2a0875cdc2990c70d"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-speech-2.8-turbo.json",
+      "sha": "d3dc9c80df281eb43767f169567aa0fdde984a27"
+    },
+    {
+      "path": "src/content/catalog-models/moonshotai-kimi-k3.json",
+      "sha": "13e69b46f772ad430be60aa8a8fcf2933b70f860"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-4.1-mini.json",
+      "sha": "6e3af5c69daae4691b1feba9395afd29e332dccc"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-4.1-nano.json",
+      "sha": "8bccc73c4d0bb872df42d34a0d4fc23da9dfac09"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-4.1.json",
+      "sha": "4fac76d0a319c7de067782ea3e647fef5db0ca9b"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-4o-mini.json",
+      "sha": "c73defef16d5f462597d28446fa601ae15ce1f1a"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-4o-transcribe.json",
+      "sha": "a3aef43c42659bb64b27912b022e01781bd807d6"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-4o.json",
+      "sha": "8ec676936b7b3b10a78fc6a9e1def01436f213c6"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5-mini.json",
+      "sha": "8c3dd5dbfc76bc9eeb00cca60be3ff30f0921310"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5-nano.json",
+      "sha": "292802b9b07c9aa9a688906bef77e76f14ec54f8"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.1.json",
+      "sha": "b9918ee0ba17e034687a72ef468d2dd89e71a22a"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.4-mini.json",
+      "sha": "d17d1d317684741f2579480f37d9a40f2effdc57"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.4-nano.json",
+      "sha": "83971a917d13220c6a42527973db7074fbfd7591"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.4-pro.json",
+      "sha": "021da8b024ee0b5680cea21d408b664cdd324282"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.4.json",
+      "sha": "0258b568d40e8e691e00b32ed66192d627cda4fc"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.5-pro.json",
+      "sha": "b7f02fa7b98e2bb5c91f71dc50d1b1d7d7ae0040"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.5.json",
+      "sha": "e1a0a095c23aaf380164cf27dfac01b74b523e91"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.6-luna.json",
+      "sha": "9e65d1bd0cfd1c33bdc25d1d46707e726de1451f"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.6-sol.json",
+      "sha": "e6c9f8ef0c3aaccf9f5d18187fe699a48748bac6"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.6-terra.json",
+      "sha": "fd9ec6a7c9b39a15477147356dcd27d073a93f72"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-5.json",
+      "sha": "6f09cbe1b1e7d672d658f250b23975206a5a8b70"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-6-astra.json",
+      "sha": "f04d27bd1bf5003845ccf1d62f6e432392cea2e6"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-6-luna.json",
+      "sha": "4b03410af6bb4557fbb6fa0d29a0c5641c5910f0"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-6-sol.json",
+      "sha": "fa0e884c84d2a63110370ca31dd66a1704ccfcf6"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-6.1-sol.json",
+      "sha": "7354fd9857eb505bff6b69909634115fd5afdaae"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-image-1.5.json",
+      "sha": "a5a4f2272febdf6b8d48ee7d57d7e13706e3272b"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-image-2.5-flare.json",
+      "sha": "398174096844de5607a5f6d9133fb8d125c1216d"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-image-2.5-sunburst.json",
+      "sha": "a4e1ae2e0be3a68753ba806e2245adfd35715c5c"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-image-2.json",
+      "sha": "d5e90bd231ed7abe81c2f67de8bf74455a5a3e5b"
+    },
+    {
+      "path": "src/content/catalog-models/openai-o3-mini.json",
+      "sha": "034ef38f2231720b582fe8ff49794cb261cf5408"
+    },
+    {
+      "path": "src/content/catalog-models/openai-o3.json",
+      "sha": "7888dfeb6dd615084cce1044956ec37ad79baf12"
+    },
+    {
+      "path": "src/content/catalog-models/openai-o4-mini.json",
+      "sha": "85290d32f22297d08b25922b074f1b228f53f4a9"
+    },
+    {
+      "path": "src/content/catalog-models/openai-tts-1-hd.json",
+      "sha": "cc223a9c4496cbcc925b011812e5d8e4c9ca8acd"
+    },
+    {
+      "path": "src/content/catalog-models/openai-tts-1.json",
+      "sha": "d0f137e71193393ddc4b4480c49efd44e5477efc"
+    },
+    {
+      "path": "src/content/catalog-models/pixverse-v5.6.json",
+      "sha": "0062e6471aafd1720114916e964e8690d0c8b199"
+    },
+    {
+      "path": "src/content/catalog-models/pixverse-v6.json",
+      "sha": "ca71586d74c6da0b1564bf1167db54237a2fd43c"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-image-edit.json",
+      "sha": "a4934c0e8d2dc9b8374216cec50388e1801e0db1"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-image-try-on.json",
+      "sha": "3d23e713ced0fffeaf08844499a7635693042072"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-image-upscale.json",
+      "sha": "634753ad2dbfc08081bc51d9c58b1bbd9ca2b4d5"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-image.json",
+      "sha": "9ba23be61c2642a755a89a332f7ef24a5e94ea54"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-video-animate.json",
+      "sha": "bc8852f1ae7bf249256294714ec02f060d720f3a"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-video-avatar.json",
+      "sha": "213f425c127b1c3731fd3b6c91004fa144be8147"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-video-replace.json",
+      "sha": "cf6f6b087b587311626c1ac3d2175698bae40cf9"
+    },
+    {
+      "path": "src/content/catalog-models/pruna-p-video.json",
+      "sha": "b30a35fa28196a2cf455c2747e80f213c7c8dc7b"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv3.json",
+      "sha": "06f64edb3cd8ce43a3ebb404ee261bce114cf5d3"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-flash.json",
+      "sha": "11a8e818799267d49d720c41a991894ec611f722"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-pro-vector.json",
+      "sha": "3fe11b15fb7c698d3bc797cd71c963e42dfb1254"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-pro.json",
+      "sha": "8be96a6d7288892e871935ec3bc9c22100301499"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-utility-pro-vector.json",
+      "sha": "161945e12ac2ac736451acd976c5dd7925fe6d7b"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-utility-pro.json",
+      "sha": "8e0e2b6e7b4ed166fcb1276b775431e14f644960"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-utility-vector.json",
+      "sha": "d3b0c4ed4821ee87fc6ad173f2d2698c7d4b6f0d"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-utility.json",
+      "sha": "c7e41b5fa3d8bf344c2582a3fd325fcb232d2c45"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1-vector.json",
+      "sha": "377c2b749c5f747aa6703b7adbfeb13908fc01eb"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-1.json",
+      "sha": "e83d9f3316fc8af326f2ffae990089e95ec3ad98"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-pro-vector.json",
+      "sha": "48405baa44971cda3feb0349e53c0374e9aae172"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-pro.json",
+      "sha": "7a424486ace07a86ca216db01b70c6be988a4ff8"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4-vector.json",
+      "sha": "441767f4ccf480653fb0b2e9e2cf54fa530b6683"
+    },
+    {
+      "path": "src/content/catalog-models/recraft-recraftv4.json",
+      "sha": "ad5368083ec9e774ad8d0c56bcea8104467a49f9"
+    },
+    {
+      "path": "src/content/catalog-models/reflection-ai-beam-1.0-501b-a23b.json",
+      "sha": "e8d36584775e3477bf8debaf23a064a2cbca96f5"
+    },
+    {
+      "path": "src/content/catalog-models/runwayml-aleph-2.json",
+      "sha": "a4961ab1321a0d6b8e1d4aa0be37f24695a37ec8"
+    },
+    {
+      "path": "src/content/catalog-models/runwayml-gen-4.5.json",
+      "sha": "07e928fbd627333eb486a9afaeb3e87d1f105721"
+    },
+    {
+      "path": "src/content/catalog-models/thinkingmachines-inkling-256k.json",
+      "sha": "2b5d30ff1eb019e04931ab3fce10ffdb8555847f"
+    },
+    {
+      "path": "src/content/catalog-models/thinkingmachines-inkling.json",
+      "sha": "7c6180a0e04f79603762c2da27c5be7a31bd5536"
+    },
+    {
+      "path": "src/content/catalog-models/topaz-starlight-fast-2.json",
+      "sha": "8ec96a371e69c603a4df1ad4c8343807ede65ec3"
+    },
+    {
+      "path": "src/content/catalog-models/topaz-starlight-precise-2-6.json",
+      "sha": "0bbdb16b40c9c5466129d6138eceb6e8cb3b5db3"
+    },
+    {
+      "path": "src/content/catalog-models/typesafe-jev-1.14.0.json",
+      "sha": "297a981207c0677897e6250feda7860356c88aeb"
+    },
+    {
+      "path": "src/content/catalog-models/typesafe-jev.json",
+      "sha": "529f578b65dfa85c9c02e1debae070633f510e52"
+    },
+    {
+      "path": "src/content/catalog-models/unbiased-pareto.json",
+      "sha": "b5030b5629ff1acaaa013c80cc9823c2fb3395bc"
+    },
+    {
+      "path": "src/content/catalog-models/vidu-q3-pro.json",
+      "sha": "d1ef3ca22ec9b36afd12b53c89d6dd93d8229b8b"
+    },
+    {
+      "path": "src/content/catalog-models/vidu-q3-turbo.json",
+      "sha": "457c0ed62db11ec8ea85686f8eb944ec3f796783"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-4.20-0309-non-reasoning.json",
+      "sha": "11db2c0c308c4352881aaa115e0c8ee43b4a6847"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-4.20-0309-reasoning.json",
+      "sha": "a44597d5e8d1275c1814408759b9b06fd9f1d03e"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-4.20-multi-agent-0309.json",
+      "sha": "1b72f86cdefcfd9e5c295af7ff93535c888c658a"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-4.3.json",
+      "sha": "b593dfcb66b05871e8c808975cc4791ffa276500"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-4.5.json",
+      "sha": "1b204de8dcdec98d9b0eb0b68741f295154a171f"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-4.6.json",
+      "sha": "58d2e56e0dd5140585c72dfc085915a460d53e18"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-4.7.json",
+      "sha": "030f83b099f976c39f2e005031ebd5feecbb00fa"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-imagine-image-2.0.json",
+      "sha": "4597c5345d4cb1daec1c6e3bdf4aadd594919a1a"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-imagine-image-quality.json",
+      "sha": "9e111c116561f866cc6811abc4a9d755adc8852c"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-imagine-image.json",
+      "sha": "4323ef5ba036aeef0852746b7ec7c97765eba298"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-imagine-video-1.5-preview.json",
+      "sha": "ba5f894c6bf3c1c5740f3cc7b7ec9f9c99efb783"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-imagine-video.json",
+      "sha": "73b3e77193ab56c913a0592f8945023e326535e2"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-stt.json",
+      "sha": "3a9b547d3452591b3743ac2b34fb555892b19e01"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-tts.json",
+      "sha": "8acb1ceee32fb7cf4d4314f68b26488fd30bfa19"
+    },
+    {
+      "path": "src/content/catalog-models/xai-grok-voice.json",
+      "sha": "acd4a8fcc8b525be276b1ba9b0efca7ec43266b5"
+    },
+    {
+      "path": "src/content/workers-ai-models/apertus-v1.5-8b.json",
+      "sha": "5c91a3f5de2f688a29c3ab32d6a13361dad4442b"
+    },
+    {
+      "path": "src/content/workers-ai-models/aura-1.json",
+      "sha": "3015cf82f2f3bc6a23eaa60a45d839102a5b0edb"
+    },
+    {
+      "path": "src/content/workers-ai-models/aura-2-en.json",
+      "sha": "2fc4938dcbb5929c3092a507bd061dd476ae1895"
+    },
+    {
+      "path": "src/content/workers-ai-models/aura-2-es.json",
+      "sha": "1ff81c59952c9b1f1116986cc91f05060c1937e4"
+    },
+    {
+      "path": "src/content/workers-ai-models/bge-base-en-v1.5.json",
+      "sha": "fc608e84b1f208f6d701701769d5bea4ce578263"
+    },
+    {
+      "path": "src/content/workers-ai-models/bge-large-en-v1.5.json",
+      "sha": "26211463dff775e38b1196e45c932ba594126f63"
+    },
+    {
+      "path": "src/content/workers-ai-models/bge-m3.json",
+      "sha": "609bd7d7ca97911350b8288bd9b3285656e67f8e"
+    },
+    {
+      "path": "src/content/workers-ai-models/bge-reranker-base.json",
+      "sha": "0fb314acbab12ec256c2dda731782f4a0510df47"
+    },
+    {
+      "path": "src/content/workers-ai-models/bge-small-en-v1.5.json",
+      "sha": "5ea917ef2af3545c5710f8ad3bd04cb008986920"
+    },
+    {
+      "path": "src/content/workers-ai-models/clairic.json",
+      "sha": "250d817edd18a0db6ae9353b7bb6e6429b81297c"
+    },
+    {
+      "path": "src/content/workers-ai-models/clef-flash.json",
+      "sha": "196002072fc4ece5d7dbf94d66c0d2b788e90cf0"
+    },
+    {
+      "path": "src/content/workers-ai-models/clef-omni.json",
+      "sha": "527db4bdb7ad2ae9c2b6513c79ee68496ad9fa58"
+    },
+    {
+      "path": "src/content/workers-ai-models/clef.json",
+      "sha": "6865aa9643a7cf79bebcb4681fb0576ca5b2ce96"
+    },
+    {
+      "path": "src/content/workers-ai-models/deepseek-r1-distill-qwen-32b.json",
+      "sha": "c9487a0c381823583e7030dd45b0a4f586e60bf5"
+    },
+    {
+      "path": "src/content/workers-ai-models/deepseek-v4-flash-0731.json",
+      "sha": "12d762c291227457325bece23247a3a48ff215ec"
+    },
+    {
+      "path": "src/content/workers-ai-models/deepseek-v4-pro-0813.json",
+      "sha": "ba58a6ae3565929689f3da77fb5626646ccd5d75"
+    },
+    {
+      "path": "src/content/workers-ai-models/deepseek-v4.1-flash-1017.json",
+      "sha": "a7653fad9c6b9414536f163936e9c62450a43ff0"
+    },
+    {
+      "path": "src/content/workers-ai-models/distilbert-sst-2-int8.json",
+      "sha": "41bcbb3ea11f30b9e44414240757b52c524a25e3"
+    },
+    {
+      "path": "src/content/workers-ai-models/dreamshaper-8-lcm.json",
+      "sha": "2151c861ddc2fa4c115ce50a4ad79588f90720ea"
+    },
+    {
+      "path": "src/content/workers-ai-models/embeddinggemma-300m.json",
+      "sha": "1de09058179b67768068c3e514a61041c6eeccc1"
+    },
+    {
+      "path": "src/content/workers-ai-models/eurollm-9b-it.json",
+      "sha": "71fe8c8a2e21d91e9ac283045da5cfa1e0f8618f"
+    },
+    {
+      "path": "src/content/workers-ai-models/flux-1-schnell.json",
+      "sha": "e4db04270c18ae8543a5470463cd0dd92c9511fa"
+    },
+    {
+      "path": "src/content/workers-ai-models/flux-2-dev.json",
+      "sha": "c6f8a36fb744546caee11294f57741d5aa52f8c4"
+    },
+    {
+      "path": "src/content/workers-ai-models/flux-2-klein-4b.json",
+      "sha": "ca6c7c31f7a576b0aa68539854b0e4c528113d32"
+    },
+    {
+      "path": "src/content/workers-ai-models/flux-2-klein-9b.json",
+      "sha": "e5c9cbdd9fe5dea0490edfdec96717fbad40a4fd"
+    },
+    {
+      "path": "src/content/workers-ai-models/flux.json",
+      "sha": "88b65561f514b03f49439b7df1866fb44e678364"
+    },
+    {
+      "path": "src/content/workers-ai-models/gemma-2b-it-lora.json",
+      "sha": "39788886e793e3a16bf3035e367acab5d86463cf"
+    },
+    {
+      "path": "src/content/workers-ai-models/gemma-4-26b-a4b-it.json",
+      "sha": "e1c7c66a87ec3684099125a6518343d60eb76825"
+    },
+    {
+      "path": "src/content/workers-ai-models/gemma-7b-it-lora.json",
+      "sha": "ba790001a796d518bb22e1156aa4a693d824b775"
+    },
+    {
+      "path": "src/content/workers-ai-models/gemma-sea-lion-v4-27b-it.json",
+      "sha": "d3243fdad3e4c60a51dec4328e4dfa38972a52b9"
+    },
+    {
+      "path": "src/content/workers-ai-models/glm-4.7-flash.json",
+      "sha": "f6716f080149dbc3734cf0886d9054b7593665a5"
+    },
+    {
+      "path": "src/content/workers-ai-models/glm-5.2.json",
+      "sha": "318bf0ad99096643c43511080fed2ae8e2482ff9"
+    },
+    {
+      "path": "src/content/workers-ai-models/glm-5.3-flash.json",
+      "sha": "1bd30bbc1926b6fed0e5bfe393f1effab88c9bcd"
+    },
+    {
+      "path": "src/content/workers-ai-models/glm-5.3.json",
+      "sha": "3123ffe3fea02d0d61514f30050058523291259a"
+    },
+    {
+      "path": "src/content/workers-ai-models/gpt-oss-120b.json",
+      "sha": "69c90e34505eccc16d54e5aacfd6fb144f338509"
+    },
+    {
+      "path": "src/content/workers-ai-models/gpt-oss-20b.json",
+      "sha": "52fc9b4b2e7fa814eb2f6ef7880fc8c123cc75c7"
+    },
+    {
+      "path": "src/content/workers-ai-models/granite-4.0-h-micro.json",
+      "sha": "93b8c250ee8685b8c1142055c0ca75fbf81efac7"
+    },
+    {
+      "path": "src/content/workers-ai-models/indictrans2-en-indic-1B.json",
+      "sha": "06d131bc2e9c571b4489e5ac0070b6bebc5ec1c2"
+    },
+    {
+      "path": "src/content/workers-ai-models/kimi-k2.6.json",
+      "sha": "befef3d09d5a8da00146fd97d3a3af1f079718ef"
+    },
+    {
+      "path": "src/content/workers-ai-models/kimi-k2.7-code.json",
+      "sha": "b21ddd467ca113f5055f5a3a195790d7fc3cfc4e"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-2-7b-chat-hf-lora.json",
+      "sha": "019ddaa743fab746fb09b5716ddef999fc13945b"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-3.1-8b-instruct-fp8.json",
+      "sha": "3b4c80f86049150da6daa97e94a19ae5aaa6c147"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-3.2-11b-vision-instruct.json",
+      "sha": "f6e7c103ae2956ed3b57b3ee3c4f50f7f100e385"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-3.2-1b-instruct.json",
+      "sha": "fa909d8de56b6d25dcfeb783dd4a15e0b469739b"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-3.2-3b-instruct.json",
+      "sha": "5283945619e3b1e893c7d577534536882621680b"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-3.3-70b-instruct-fp8-fast.json",
+      "sha": "4aff3a0d98d9914324f72ac13f8ae7f7bc3be8fa"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-4-scout-17b-16e-instruct.json",
+      "sha": "e000dec645490897d1beadffea06e6271e9fc2ea"
+    },
+    {
+      "path": "src/content/workers-ai-models/llama-guard-3-8b.json",
+      "sha": "3606d8688512599efb9c1d95f33df753c700b18e"
+    },
+    {
+      "path": "src/content/workers-ai-models/llava-1.5-7b-hf.json",
+      "sha": "3911eda286b2acb4f3e238dcaf1a9e74c8fe7f29"
+    },
+    {
+      "path": "src/content/workers-ai-models/lucid-origin.json",
+      "sha": "1facf56026c187b87bb97b13554d31b013b9d310"
+    },
+    {
+      "path": "src/content/workers-ai-models/m2m100-1.2b.json",
+      "sha": "12d54f98d0c307b9877abc64d2e852896a93926f"
+    },
+    {
+      "path": "src/content/workers-ai-models/melotts.json",
+      "sha": "a43d26332c3f7c4aa82c0f4c34f5fa468749bb7f"
+    },
+    {
+      "path": "src/content/workers-ai-models/mistral-7b-instruct-v0.2-lora.json",
+      "sha": "5406964b686c03c495dbedce5333049d3a1ec81a"
+    },
+    {
+      "path": "src/content/workers-ai-models/mistral-small-3.1-24b-instruct.json",
+      "sha": "7b023d8bc5a00d748ab9d14c28693ff33dacbc03"
+    },
+    {
+      "path": "src/content/workers-ai-models/moondream3.1-9B-A2B.json",
+      "sha": "942fccbc88c5b35d5b07fa23951c6c4b3d7cf2d2"
+    },
+    {
+      "path": "src/content/workers-ai-models/nemotron-3-120b-a12b.json",
+      "sha": "8f4e2775f959055227d34070176ecc1abd5aaa46"
+    },
+    {
+      "path": "src/content/workers-ai-models/nova-3.json",
+      "sha": "219cd5e03d04fec5a5afa144f2dc8ae12938fe62"
+    },
+    {
+      "path": "src/content/workers-ai-models/phoenix-1.0.json",
+      "sha": "2d14c08414f653088482adc504dd4c747905ef1d"
+    },
+    {
+      "path": "src/content/workers-ai-models/phonellm-mini-alpha-2.json",
+      "sha": "f22cc853be0b96a820d3eb0f48cdd0fe4c09fbc2"
+    },
+    {
+      "path": "src/content/workers-ai-models/plamo-embedding-1b.json",
+      "sha": "c3fbed9832e63e838e5f18efdf949e89da4a4ea3"
+    },
+    {
+      "path": "src/content/workers-ai-models/qwen2.5-coder-32b-instruct.json",
+      "sha": "a9d1c49769a4166aa640e447e6a13717648a865f"
+    },
+    {
+      "path": "src/content/workers-ai-models/qwen3-30b-a3b-fp8.json",
+      "sha": "0812ea093bc2368bff4f6790e4e26c1fee417c86"
+    },
+    {
+      "path": "src/content/workers-ai-models/qwen3-embedding-0.6b.json",
+      "sha": "a99d82177b82bebb5499226a318bf308d2ade634"
+    },
+    {
+      "path": "src/content/workers-ai-models/qwen3.8-27b.json",
+      "sha": "2083f0db08689ed1a23aee03a828ffaa5ef36345"
+    },
+    {
+      "path": "src/content/workers-ai-models/qwq-32b.json",
+      "sha": "3705b16550f82207f599be1d3d9796ef698925ac"
+    },
+    {
+      "path": "src/content/workers-ai-models/resnet-50.json",
+      "sha": "a58adecba8195bc63e08423c241148bfacb19edd"
+    },
+    {
+      "path": "src/content/workers-ai-models/smart-turn-v2.json",
+      "sha": "a6efdd88b6b88c48904988b55bbafa73d00b73e1"
+    },
+    {
+      "path": "src/content/workers-ai-models/stable-diffusion-v1-5-inpainting.json",
+      "sha": "0d8f9700bfa89bcdc9bd57b348996440a14ff0f4"
+    },
+    {
+      "path": "src/content/workers-ai-models/stable-diffusion-xl-base-1.0.json",
+      "sha": "9bfd83d7a1e6a0b6f066f8c842d4ef8540d0b517"
+    },
+    {
+      "path": "src/content/workers-ai-models/stable-diffusion-xl-lightning.json",
+      "sha": "c9550ac466d3a9127480d71c66b274227bd3733e"
+    },
+    {
+      "path": "src/content/workers-ai-models/whisper-large-v3-turbo.json",
+      "sha": "afe25ffc86f102436a34ebe03a68724294ffaaee"
+    },
+    {
+      "path": "src/content/workers-ai-models/whisper-tiny-en.json",
+      "sha": "c8d759a9df8ecbdcdaf8957664522a422d583db1"
+    },
+    {
+      "path": "src/content/workers-ai-models/whisper.json",
+      "sha": "25b51c220da2db20c06995b64cc775158e8f7da6"
+    }
+  ]
+}

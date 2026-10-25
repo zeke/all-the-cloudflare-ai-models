@@ -1,0 +1,41 @@
+{
+  "name": "all-the-cloudflare-ai-models",
+  "version": "1.0.0",
+  "description": "A static JSON array of Cloudflare Workers AI and AI Gateway catalog models",
+  "main": "index.json",
+  "exports": {
+    ".": "./index.json",
+    "./index.json": "./index.json",
+    "./sources.json": "./sources.json"
+  },
+  "files": [
+    "index.json",
+    "sources.json",
+    "NOTICE",
+    "LICENSE-DATA"
+  ],
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "test": "node --test",
+    "release": "node scripts/release.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeke/all-the-cloudflare-ai-models.git"
+  },
+  "author": "Zeke Sikelianos (https://zeke.sikelianos.com)",
+  "license": "(MIT AND CC-BY-4.0)",
+  "keywords": [
+    "cloudflare",
+    "workers-ai",
+    "ai-gateway",
+    "models",
+    "json"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

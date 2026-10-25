@@ -1,0 +1,50 @@
+name: Update and publish
+on:
+  schedule:
+    - cron: '23 9 * * *'
+  workflow_dispatch:
+concurrency:
+  group: catalog-release
+  cancel-in-progress: false
+permissions:
+  contents: write
+  id-token: write
+jobs:
+  update:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          registry-url: https://registry.npmjs.org
+      - run: npm install --global npm@11.20.0
+      - run: npm ci --ignore-scripts
+      - run: npm run update
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: npm test
+      - name: Commit changed data and patch version
+        run: |
+          if ! git diff --quiet -- index.json sources.json; then
+            npm version patch --no-git-tag-version
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add index.json sources.json package.json package-lock.json
+            git commit -m 'Update Cloudflare model catalog'
+            git push origin HEAD:main
+          fi
+      # Reconcile an unpublished committed version after a failed publish.
+      # No npm token: requires an approved npm trusted publisher for this workflow.
+      - run: npm run release
+      - name: Verify public registry install
+        run: |
+          VERSION=$(node -p 'require("./package.json").version')
+          mkdir /tmp/catalog-install
+          cd /tmp/catalog-install
+          npm install --ignore-scripts "all-the-cloudflare-ai-models@$VERSION"
+          node -e 'const m=require("all-the-cloudflare-ai-models"); if(!Array.isArray(m)||m.length<150) process.exit(1); console.log(m.length)'

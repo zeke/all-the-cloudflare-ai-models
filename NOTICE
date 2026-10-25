@@ -1,0 +1,9 @@
+Catalog content is adapted from Cloudflare documentation:
+https://github.com/cloudflare/cloudflare-docs
+https://developers.cloudflare.com/ai/models/
+Copyright Cloudflare, Inc. and contributors. Licensed under CC BY 4.0:
+https://creativecommons.org/licenses/by/4.0/
+
+Changes: selected metadata fields, normalized task names, added route keys and
+source links, combined both catalog collections, deterministic sorting.
+See sources.json for the exact upstream revision and per-file Git hashes.
