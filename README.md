@@ -1,6 +1,8 @@
 # all-the-cloudflare-ai-models
 
-Cloudflare's AI catalog in a static JSON array, updated daily. No runtime dependencies or API keys needed to read it.
+Cloudflare's AI catalog in a static JSON array. Updated daily!
+
+See the official Cloudflare AI catalog: https://developers.cloudflare.com/ai/models/
 
 ## Install
 
@@ -8,20 +10,14 @@ Cloudflare's AI catalog in a static JSON array, updated daily. No runtime depend
 npm install zeke/all-the-cloudflare-ai-models
 ```
 
-This installs from the public GitHub repository. **The package isn't published to the npm registry.** Pin a snapshot with `zeke/all-the-cloudflare-ai-models#COMMIT_SHA`.
+This installs from the public GitHub repository. (The package isn't published to the npm registry.)
 
 ## Usage
 
 ```js
-const models = require('all-the-cloudflare-ai-models')
+import models from 'all-the-cloudflare-ai-models' with { type: 'json' }
 const hosted = models.filter(model => model.route === 'workers-ai')
 console.log(hosted[0].model)
-```
-
-ESM works too:
-
-```js
-import models from 'all-the-cloudflare-ai-models' with { type: 'json' }
 ```
 
 Or download [index.json](https://raw.githubusercontent.com/zeke/all-the-cloudflare-ai-models/main/index.json) directly. [sources.json](sources.json) records the upstream revision and file hashes.
