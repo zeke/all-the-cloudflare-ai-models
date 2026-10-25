@@ -8,4 +8,5 @@ baseline update. Keep README field documentation and tests in sync with the data
 
 Run npm test after changes. Run npm run update twice when changing the updater to
 check live coverage and no-op behavior. Do not put credentials in this repository.
-Persistent npm publishing permissions require the owner's explicit approval.
+Delivery is through this private GitHub repository. Do not add npm publishing,
+credentials, or OIDC publishing permissions without a new explicit request.

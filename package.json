@@ -16,8 +16,7 @@
   ],
   "scripts": {
     "update": "node scripts/update.mjs",
-    "test": "node --test",
-    "release": "node scripts/release.mjs"
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
@@ -35,7 +34,5 @@
   "engines": {
     "node": ">=22"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "private": true
 }

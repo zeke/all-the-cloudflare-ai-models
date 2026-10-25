@@ -2,13 +2,27 @@
 
 Cloudflare's AI model catalog, in a static JSON array. Includes models hosted on Workers AI and third-party models offered through Cloudflare AI Gateway's catalog, including OpenAI, Anthropic, and Google.
 
-No runtime dependencies, API keys, or network requests. Install it and read the JSON.
+Reading the installed JSON needs no runtime dependencies, API keys, or network requests. This repository is private, and the package is not published to npm. GitHub access is required to install or download it.
 
-## Install
+## Install from GitHub
+
+With access to this private repository and Git HTTPS authentication already configured:
 
 ```sh
-npm install all-the-cloudflare-ai-models
+npm install 'git+https://github.com/zeke/all-the-cloudflare-ai-models.git#main'
 ```
+
+The lockfile records the resolved commit. For a fixed snapshot, replace `main` with a full commit SHA. Keep GitHub credentials in your credential manager, never in the dependency URL or lockfile.
+
+If you use an authenticated GitHub CLI session, you can also clone the repository and install it from a local path:
+
+```sh
+gh repo clone zeke/all-the-cloudflare-ai-models
+cd your-app
+npm install /absolute/path/to/all-the-cloudflare-ai-models
+```
+
+The installed package name and imports are the same with either method:
 
 ```js
 const models = require('all-the-cloudflare-ai-models')
@@ -23,6 +37,21 @@ console.log(models.find(model => model.model === 'anthropic/claude-haiku-4.5'))
 ```
 
 You can also import `all-the-cloudflare-ai-models/index.json` and `all-the-cloudflare-ai-models/sources.json`.
+
+## Read the JSON directly
+
+Browse [index.json](https://github.com/zeke/all-the-cloudflare-ai-models/blob/main/index.json) and [sources.json](https://github.com/zeke/all-the-cloudflare-ai-models/blob/main/sources.json) while signed in to GitHub with repository access. Anonymous raw URLs won't work for this private repository.
+
+Download either file using an authenticated GitHub CLI session:
+
+```sh
+gh api 'repos/zeke/all-the-cloudflare-ai-models/contents/index.json?ref=main' \
+  -H 'Accept: application/vnd.github.raw' > models.json
+gh api 'repos/zeke/all-the-cloudflare-ai-models/contents/sources.json?ref=main' \
+  -H 'Accept: application/vnd.github.raw' > sources.json
+```
+
+For a fixed snapshot, replace `ref=main` with `ref=` followed by a full commit SHA. A clone also gives you both JSON files directly.
 
 ## What's included
 
@@ -59,19 +88,13 @@ npm test
 
 The updater reads a complete, non-truncated Git tree, fetches every JSON file at that exact revision, and checks its Git blob hash. It writes nothing until all fetches and validation succeed. It fails on empty collections, malformed records, duplicate route keys, missing core providers, or any model removal. Removals need a reviewed edit to the baseline and source checks before running the updater again. Failure leaves the committed snapshot available and fails the workflow visibly.
 
-Output is sorted by `id` with stable JSON formatting. There are no generated timestamps. An unchanged model list produces no commit, version bump, or new release. Changed data gets a patch version. Major versions are reserved for breaking format changes; optional format additions use minor versions.
+Output is sorted by `id` with stable JSON formatting. There are no generated timestamps. The workflow commits changed catalog data to `main`. An unchanged model list produces no commit or version change. Git commits identify snapshots; the updater doesn't change the package version or create release tags. Concurrent updater runs are serialized, and a conflicting push fails visibly.
 
-Data and version are pushed before publishing. If publishing fails, the next run retries that committed version. Registry errors fail the release; only an explicit 404 is treated as unpublished. An already published version must have identical packaged files (npm verifies the downloaded tarball integrity). Concurrent runs are serialized, and a conflicting push stops before publishing.
+## Delivery status
 
-## npm publishing setup
+Delivery is GitHub-only. The repository remains private. The package is not published to the npm registry, so `npm install all-the-cloudflare-ai-models` by name won't work. Use the GitHub dependency or clone instructions above.
 
-`update.yml` uses npm trusted publishing with GitHub OIDC. It stores no npm token. Before the first automatic release, the package owner must:
-
-1. Authenticate to npm and bootstrap the first publication if npm requires an existing package.
-2. Approve a trusted publisher with owner `zeke`, repository `all-the-cloudflare-ai-models`, workflow `update.yml`, and permission to publish directly. No environment is configured.
-3. Dispatch **Update and publish** and verify its registry installation step.
-
-Creating that trust relationship grants persistent publishing access and requires the owner's approval. Follow [npm's trusted publishing documentation](https://docs.npmjs.com/trusted-publishers/). A failed authentication step doesn't count as a published package.
+The package has `private: true` to prevent accidental npm publication. There are no npm publish steps, registry credentials, or OIDC publishing permissions in the workflows.
 
 ## Prior art
 
