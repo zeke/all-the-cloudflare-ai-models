@@ -6,7 +6,7 @@ Reading the installed JSON needs no runtime dependencies, API keys, or network r
 
 ## Install from GitHub
 
-With access to this private repository and Git HTTPS authentication already configured:
+With access to this private repository and working GitHub Git authentication (npm may resolve GitHub dependencies through SSH, even from an HTTPS URL):
 
 ```sh
 npm install 'git+https://github.com/zeke/all-the-cloudflare-ai-models.git#main'
