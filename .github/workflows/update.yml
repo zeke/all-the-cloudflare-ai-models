@@ -33,7 +33,7 @@ jobs:
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add index.json sources.json CHANGELOG.md
-            git commit -m 'Update Cloudflare model catalog'
+            git commit -m 'chore: update Cloudflare model catalog'
             git push origin HEAD:main
             echo 'Updated catalog and changelog committed to main.' >> "$GITHUB_STEP_SUMMARY"
           fi

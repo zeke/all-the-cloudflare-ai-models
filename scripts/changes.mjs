@@ -36,7 +36,7 @@ export function appendChangelog(previousText, diff, {date, revision, previousRev
     ? `[source diff](https://github.com/cloudflare/cloudflare-docs/compare/${previousRevision}...${revision})`
     : `[source](https://github.com/cloudflare/cloudflare-docs/tree/${revision})`;
   const lines = [
-    `## ${date} — ${diff.added.length} added, ${diff.removed.length} removed, ${diff.changed.length} changed`,
+    `## ${date}: ${diff.added.length} added, ${diff.removed.length} removed, ${diff.changed.length} changed`,
     '', `Cloudflare ${source}.`, '',
     `Catalog entries: ${delta(diff.after.entries, diff.before.entries)}; Workers AI: ${delta(diff.after.workersAI, diff.before.workersAI)}; AI Gateway: ${delta(diff.after.aiGateway, diff.before.aiGateway)}.`,
     `Distinct Cloudflare model IDs: ${delta(diff.after.modelIDs, diff.before.modelIDs)}.`, ''
