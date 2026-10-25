@@ -47,3 +47,26 @@ test('fetch failure leaves both snapshots unchanged', async () => {
   const after = await Promise.all(['index.json', 'sources.json'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
   assert.deepEqual(after, before);
 });
+test('partial fetch and truncated tree leave snapshots unchanged', async () => {
+  const before = await Promise.all(['index.json', 'sources.json'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
+  const {update} = await import('../scripts/update.mjs');
+  const original = globalThis.fetch;
+  const bytes = Buffer.from(JSON.stringify({model_id: 'example/model', provider_id: 'example', name: 'Example', description: 'Example', task: 'Text Generation'}));
+  const files = ['good', 'failed'].map(name => ({path: `src/content/catalog-models/${name}.json`, type: 'blob', sha: blobHash(bytes)}));
+  try {
+    globalThis.fetch = async () => ({ok: true, json: async () => ({truncated: true})});
+    await assert.rejects(update(), /Truncated/);
+    globalThis.fetch = async url => url.includes('/git/trees/')
+      ? {ok: true, json: async () => ({truncated: false, sha: 'a'.repeat(40), tree: files})}
+      : url.endsWith('/good.json')
+        ? {ok: true, arrayBuffer: async () => bytes}
+        : {ok: false, status: 503};
+    await assert.rejects(update(), /503/);
+    globalThis.fetch = async url => url.includes('/git/trees/')
+      ? {ok: true, json: async () => ({truncated: false, sha: 'a'.repeat(40), tree: [files[0]]})}
+      : {ok: true, arrayBuffer: async () => Buffer.from('{}')};
+    await assert.rejects(update(), /hash mismatch/);
+  } finally { globalThis.fetch = original; }
+  const after = await Promise.all(['index.json', 'sources.json'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
+  assert.deepEqual(after, before);
+});
