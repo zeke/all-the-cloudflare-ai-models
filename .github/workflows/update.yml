@@ -27,13 +27,13 @@ jobs:
       - run: npm test
       - name: Commit changed catalog data
         run: |
-          if git diff --quiet -- index.json sources.json; then
+          if git diff --quiet -- index.json sources.json CHANGELOG.md; then
             echo 'Catalog unchanged; no commit or version change.' >> "$GITHUB_STEP_SUMMARY"
           else
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add index.json sources.json
+            git add index.json sources.json CHANGELOG.md
             git commit -m 'Update Cloudflare model catalog'
             git push origin HEAD:main
-            echo 'Updated catalog data committed to main.' >> "$GITHUB_STEP_SUMMARY"
+            echo 'Updated catalog and changelog committed to main.' >> "$GITHUB_STEP_SUMMARY"
           fi

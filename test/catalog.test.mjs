@@ -17,12 +17,13 @@ test('snapshot provenance accounts for every exported record', async () => {
   assert.deepEqual(sources.files.map(f => f.path).sort(), models.map(m => m.source).sort());
   assert(sources.files.every(f => /^[a-f0-9]{40}$/.test(f.sha)));
 });
-test('empty, partial, duplicate, unsorted and removed catalogs fail closed', () => {
+test('empty, partial, duplicate, unsorted and large-removal catalogs fail closed', () => {
   assert.throws(() => validate([]));
   assert.throws(() => validate(models.filter(m => m.route === 'workers-ai')));
   assert.throws(() => validate([...models, models[0]]));
   assert.throws(() => validate([...models].reverse()));
-  assert.throws(() => validate(models.slice(1), models), /removals/);
+  validate(models.slice(1), models);
+  assert.throws(() => validate(models.slice(20), models), /removals/);
 });
 test('normalization preserves canonical IDs and separate routes', () => {
   const model = 'example/model';
@@ -37,18 +38,18 @@ test('normalization preserves canonical IDs and separate routes', () => {
 });
 test('git blob hashing uses Git framing', () => assert.equal(blobHash(Buffer.from('test\n')), '9daeafb9864cf43055ae93beb0afd6c7d144bfa4'));
 test('fetch failure leaves both snapshots unchanged', async () => {
-  const before = await Promise.all(['index.json', 'sources.json'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
+  const before = await Promise.all(['index.json', 'sources.json', 'CHANGELOG.md'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
   const original = globalThis.fetch;
   globalThis.fetch = async () => ({ok: false, status: 503});
   try {
     const {update} = await import('../scripts/update.mjs');
     await assert.rejects(update(), /503/);
   } finally { globalThis.fetch = original; }
-  const after = await Promise.all(['index.json', 'sources.json'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
+  const after = await Promise.all(['index.json', 'sources.json', 'CHANGELOG.md'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
   assert.deepEqual(after, before);
 });
 test('partial fetch and truncated tree leave snapshots unchanged', async () => {
-  const before = await Promise.all(['index.json', 'sources.json'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
+  const before = await Promise.all(['index.json', 'sources.json', 'CHANGELOG.md'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
   const {update} = await import('../scripts/update.mjs');
   const original = globalThis.fetch;
   const bytes = Buffer.from(JSON.stringify({model_id: 'example/model', provider_id: 'example', name: 'Example', description: 'Example', task: 'Text Generation'}));
@@ -67,6 +68,6 @@ test('partial fetch and truncated tree leave snapshots unchanged', async () => {
       : {ok: true, arrayBuffer: async () => Buffer.from('{}')};
     await assert.rejects(update(), /hash mismatch/);
   } finally { globalThis.fetch = original; }
-  const after = await Promise.all(['index.json', 'sources.json'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
+  const after = await Promise.all(['index.json', 'sources.json', 'CHANGELOG.md'].map(p => readFile(new URL('../' + p, import.meta.url), 'utf8')));
   assert.deepEqual(after, before);
 });

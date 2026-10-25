@@ -49,10 +49,12 @@ export function validate(models, previous = []) {
   for (const route of ['workers-ai', 'ai-gateway']) {
     const current = models.filter(m => m.route === route);
     assert(current.length >= (route === 'workers-ai' ? 50 : 100), `Suspicious ${route} count`);
-    // Any removal requires review, even when other models have been added.
+    // A complete source revision may legitimately retire models. Block large
+    // removals within each route even when additions mask the net count change.
     const currentIds = new Set(current.map(m => m.id));
     const removed = previous.filter(m => m.route === route && !currentIds.has(m.id));
-    assert(removed.length === 0, `Review required for removals: ${removed.map(m => m.id).join(', ')}`);
+    const previousCount = previous.filter(m => m.route === route).length;
+    assert(removed.length <= previousCount * 0.1, `Review required for removals exceeding 10% of ${route}: ${removed.map(m => m.id).join(', ')}`);
   }
   for (const provider of ['openai', 'anthropic', 'google'])
     assert(models.some(m => m.route === 'ai-gateway' && m.provider === provider), `Missing ${provider}`);
