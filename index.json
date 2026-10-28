@@ -2147,6 +2147,30 @@
     "source": "src/content/catalog-models/inworld-tts-2.json"
   },
   {
+    "id": "ai-gateway:klingai/kling-v4",
+    "model": "klingai/kling-v4",
+    "route": "ai-gateway",
+    "provider": "klingai",
+    "name": "Kling 4.0",
+    "description": "Kling 4.0 is Kling AI's video generation model for text-to-video and multi-keyframe image-to-video, producing up to 30 seconds of 720p or 1080p video from prompts of up to 26,000 characters and up to 10 keyframes.",
+    "task": "Text-to-Video",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "klingai",
+        "pricing": {
+          "default": 0.235,
+          "720p": 0.157,
+          "1080p": 0.235
+        }
+      }
+    ],
+    "request_formats": null,
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/klingai/kling-v4/",
+    "source": "src/content/catalog-models/klingai-kling-v4.json"
+  },
+  {
     "id": "ai-gateway:krea/krea-2-large",
     "model": "krea/krea-2-large",
     "route": "ai-gateway",
@@ -2550,6 +2574,34 @@
     "source": "src/content/catalog-models/minimax-m3.json"
   },
   {
+    "id": "ai-gateway:minimax/m3.1-flash",
+    "model": "minimax/m3.1-flash",
+    "route": "ai-gateway",
+    "provider": "minimax",
+    "name": "MiniMax M3.1 Flash",
+    "description": "MiniMax M3.1 Flash is a fast, cost-efficient multimodal model for agentic tasks, coding, and computer use. It accepts text, image, and video input, always reasons before answering with adjustable effort, and has a 1M-token context window.",
+    "task": "Text Generation",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "minimax",
+        "pricing": {
+          "input_tokens": 0.15,
+          "output_tokens": 0.6,
+          "input_cached_tokens": 0.015,
+          "input_cache_creation_tokens": 0.15
+        }
+      }
+    ],
+    "request_formats": [
+      "chat-completions",
+      "anthropic-messages"
+    ],
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/minimax/m3.1-flash/",
+    "source": "src/content/catalog-models/minimax-m3.1-flash.json"
+  },
+  {
     "id": "ai-gateway:minimax/music-2.6",
     "model": "minimax/music-2.6",
     "route": "ai-gateway",
@@ -2641,6 +2693,29 @@
     "planned_deprecation_date": null,
     "documentation": "https://developers.cloudflare.com/ai/models/moonshotai/kimi-k3/",
     "source": "src/content/catalog-models/moonshotai-kimi-k3.json"
+  },
+  {
+    "id": "ai-gateway:openai/decisions",
+    "model": "openai/decisions",
+    "route": "ai-gateway",
+    "provider": "openai",
+    "name": "Decisions",
+    "description": "Decisions uses GPT-6 Luna to evaluate shared text or image evidence against typed questions. It returns probabilities, fixed choices, or rubric scores for low-latency classification, routing, and prioritization workflows.",
+    "task": "Text Generation",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "openai",
+        "pricing": {
+          "input_tokens": 0.1,
+          "output_tokens": 0
+        }
+      }
+    ],
+    "request_formats": null,
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/openai/decisions/",
+    "source": "src/content/catalog-models/openai-decisions.json"
   },
   {
     "id": "ai-gateway:openai/gpt-4.1",

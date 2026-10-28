@@ -1,10 +1,10 @@
 {
   "repository": "https://github.com/cloudflare/cloudflare-docs",
-  "revision": "ec32a21c71d1aa8747ef270e180ef0d31e5231f6",
+  "revision": "a9f802186dc5eb62a8ee898314def78541eb0649",
   "catalog": "https://developers.cloudflare.com/ai/models/",
   "counts": {
     "workers-ai": 73,
-    "ai-gateway": 189
+    "ai-gateway": 192
   },
   "files": [
     {
@@ -352,6 +352,10 @@
       "sha": "98401c4cae009b46a139f1e5802535ca259f8f59"
     },
     {
+      "path": "src/content/catalog-models/klingai-kling-v4.json",
+      "sha": "83622bb3067724ac78f5fb3301dfe072a0bec230"
+    },
+    {
       "path": "src/content/catalog-models/krea-krea-2-large.json",
       "sha": "adb922212746e7da90016c43f27b0c336c23f91d"
     },
@@ -412,6 +416,10 @@
       "sha": "daf567fb802cb7bac6f98e39ccc7cbf9cc547b0b"
     },
     {
+      "path": "src/content/catalog-models/minimax-m3.1-flash.json",
+      "sha": "d3994c8ff2b192ce52d87fc504615a4b6817d584"
+    },
+    {
       "path": "src/content/catalog-models/minimax-m3.json",
       "sha": "ecd047b66f49c817108286ef9e9c6fcd7f1f11c0"
     },
@@ -430,6 +438,10 @@
     {
       "path": "src/content/catalog-models/moonshotai-kimi-k3.json",
       "sha": "13e69b46f772ad430be60aa8a8fcf2933b70f860"
+    },
+    {
+      "path": "src/content/catalog-models/openai-decisions.json",
+      "sha": "eff765ffd5607afff4f3dc0c5b09369e805ab6cc"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-4.1-mini.json",
@@ -829,7 +841,7 @@
     },
     {
       "path": "src/content/workers-ai-models/deepseek-v4.1-flash-1017.json",
-      "sha": "a7653fad9c6b9414536f163936e9c62450a43ff0"
+      "sha": "2fbac4f4d5bd99f298a74fd0a5053584656c0fb9"
     },
     {
       "path": "src/content/workers-ai-models/distilbert-sst-2-int8.json",
