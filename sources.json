@@ -1,10 +1,10 @@
 {
   "repository": "https://github.com/cloudflare/cloudflare-docs",
-  "revision": "a9f802186dc5eb62a8ee898314def78541eb0649",
+  "revision": "8e6c9edb78a17275b5b04cd38ded4cd98ea72699",
   "catalog": "https://developers.cloudflare.com/ai/models/",
   "counts": {
     "workers-ai": 73,
-    "ai-gateway": 192
+    "ai-gateway": 194
   },
   "files": [
     {
@@ -352,6 +352,10 @@
       "sha": "98401c4cae009b46a139f1e5802535ca259f8f59"
     },
     {
+      "path": "src/content/catalog-models/klingai-kling-v3-image.json",
+      "sha": "637eaef9372935ab7d2367d51b0fab2527857410"
+    },
+    {
       "path": "src/content/catalog-models/klingai-kling-v4.json",
       "sha": "83622bb3067724ac78f5fb3301dfe072a0bec230"
     },
@@ -534,6 +538,10 @@
     {
       "path": "src/content/catalog-models/openai-gpt-6.1-sol.json",
       "sha": "7354fd9857eb505bff6b69909634115fd5afdaae"
+    },
+    {
+      "path": "src/content/catalog-models/openai-gpt-6.1-terra.json",
+      "sha": "2d805e64cecfc304fed0506c0c97e8f897d35c38"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-image-1.5.json",

@@ -2147,6 +2147,28 @@
     "source": "src/content/catalog-models/inworld-tts-2.json"
   },
   {
+    "id": "ai-gateway:klingai/kling-v3-image",
+    "model": "klingai/kling-v3-image",
+    "route": "ai-gateway",
+    "provider": "klingai",
+    "name": "Kling v3 Image",
+    "description": "Kling V3 Image is Kling AI's text-to-image model for photorealistic image generation.",
+    "task": "Text-to-Image",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "klingai",
+        "pricing": {
+          "output_image_count": 0.027
+        }
+      }
+    ],
+    "request_formats": null,
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/klingai/kling-v3-image/",
+    "source": "src/content/catalog-models/klingai-kling-v3-image.json"
+  },
+  {
     "id": "ai-gateway:klingai/kling-v4",
     "model": "klingai/kling-v4",
     "route": "ai-gateway",
@@ -3351,6 +3373,39 @@
     "planned_deprecation_date": null,
     "documentation": "https://developers.cloudflare.com/ai/models/openai/gpt-6.1-sol/",
     "source": "src/content/catalog-models/openai-gpt-6.1-sol.json"
+  },
+  {
+    "id": "ai-gateway:openai/gpt-6.1-terra",
+    "model": "openai/gpt-6.1-terra",
+    "route": "ai-gateway",
+    "provider": "openai",
+    "name": "GPT-6.1 Terra",
+    "description": "GPT-6.1 Terra is OpenAI's fast, efficient model for visual reasoning, precise computer use, and clear, natural writing. Use it to match product photos to catalog entries, interpret technical drawings, act on application screens, or draft and revise text. Tool calling requires the Responses API.",
+    "task": "Text Generation",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "openai",
+        "pricing": {
+          "long_context_threshold_tokens": 272000,
+          "short_context_input_tokens": 1,
+          "short_context_input_cached_tokens": 0.05,
+          "short_context_input_cache_creation_tokens": 1.25,
+          "short_context_output_tokens": 5,
+          "long_context_input_tokens": 2,
+          "long_context_input_cached_tokens": 0.1,
+          "long_context_input_cache_creation_tokens": 2.5,
+          "long_context_output_tokens": 7.5
+        }
+      }
+    ],
+    "request_formats": [
+      "responses",
+      "chat-completions"
+    ],
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/openai/gpt-6.1-terra/",
+    "source": "src/content/catalog-models/openai-gpt-6.1-terra.json"
   },
   {
     "id": "ai-gateway:openai/gpt-image-1.5",
