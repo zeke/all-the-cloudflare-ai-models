@@ -209,8 +209,8 @@
         "id": "alibaba",
         "pricing": {
           "input_tokens": 1.25,
-          "output_tokens": 3.75,
-          "input_cached_tokens": 0.25
+          "input_cached_tokens": 0.25,
+          "output_tokens": 3.75
         }
       }
     ],
@@ -236,8 +236,8 @@
         "id": "alibaba",
         "pricing": {
           "input_tokens": 0.32,
-          "output_tokens": 1.28,
-          "input_cached_tokens": 0.064
+          "input_cached_tokens": 0.064,
+          "output_tokens": 1.28
         }
       }
     ],
@@ -263,8 +263,8 @@
         "id": "alibaba",
         "pricing": {
           "input_tokens": 2,
-          "output_tokens": 6,
-          "input_cached_tokens": 0.25
+          "input_cached_tokens": 0.25,
+          "output_tokens": 6
         }
       }
     ],
@@ -413,9 +413,9 @@
         "id": "anthropic",
         "pricing": {
           "input_tokens": 10,
-          "output_tokens": 50,
           "input_cached_tokens": 0.25,
-          "input_cache_creation_tokens": 12.5
+          "input_cache_creation_tokens": 12.5,
+          "output_tokens": 50
         }
       }
     ],
@@ -607,9 +607,9 @@
         "id": "anthropic",
         "pricing": {
           "input_tokens": 5,
-          "output_tokens": 25,
           "input_cached_tokens": 0.5,
-          "input_cache_creation_tokens": 6.25
+          "input_cache_creation_tokens": 6.25,
+          "output_tokens": 25
         }
       }
     ],
@@ -634,8 +634,8 @@
         "id": "anthropic",
         "pricing": {
           "input_tokens": 4,
-          "output_tokens": 20,
           "input_cached_tokens": 0.2,
+          "output_tokens": 20,
           "input_cache_creation_tokens": 5
         }
       }
@@ -742,7 +742,7 @@
         "id": "anthropic",
         "pricing": {
           "input_tokens": 2,
-          "input_cached_tokens": 0.2,
+          "input_cached_tokens": 0.1,
           "input_cache_creation_tokens": 2.5,
           "output_tokens": 10
         }
@@ -955,10 +955,10 @@
       {
         "id": "black-forest-labs",
         "pricing": {
-          "hd": 0.17,
-          "fhd": 0.29,
-          "v2v_hd": 0.41,
-          "v2v_fhd": 0.53,
+          "hd": 0.15,
+          "fhd": 0.24,
+          "v2v_hd": 0.21,
+          "v2v_fhd": 0.27,
           "hd_draft": 0.06,
           "v2v_hd_draft": 0.12
         }
@@ -1116,14 +1116,14 @@
         "id": "bytedance",
         "pricing": {
           "default": 0.15,
-          "480p_video_in": 0.172,
-          "720p_video_in": 0.372,
-          "1080p_video_in": 0.914,
-          "4k_video_in": 1.866,
           "480p_non_video_in": 0.07,
+          "480p_video_in": 0.172,
           "720p_non_video_in": 0.15,
+          "720p_video_in": 0.372,
           "1080p_non_video_in": 0.37,
-          "4k_non_video_in": 0.78
+          "1080p_video_in": 0.914,
+          "4k_non_video_in": 0.78,
+          "4k_video_in": 1.866
         }
       }
     ],
@@ -1145,11 +1145,11 @@
       {
         "id": "bytedance",
         "pricing": {
-          "default": 0.12,
-          "480p_video_in": 0.132,
-          "720p_video_in": 0.286,
           "480p_non_video_in": 0.06,
-          "720p_non_video_in": 0.12
+          "480p_video_in": 0.132,
+          "720p_non_video_in": 0.12,
+          "720p_video_in": 0.286,
+          "default": 0.12
         }
       }
     ],
@@ -1171,11 +1171,11 @@
       {
         "id": "bytedance",
         "pricing": {
-          "default": 0.09,
-          "480p_video_in": 0.084,
-          "720p_video_in": 0.182,
           "480p_non_video_in": 0.04,
-          "720p_non_video_in": 0.09
+          "480p_video_in": 0.084,
+          "720p_non_video_in": 0.09,
+          "720p_video_in": 0.182,
+          "default": 0.09
         }
       }
     ],
@@ -1197,11 +1197,11 @@
       {
         "id": "bytedance",
         "pricing": {
-          "default": 0.2312,
+          "480p_non_video_in": 0.1028,
+          "720p_non_video_in": 0.2312,
           "480p_video_in": 0.4304,
           "720p_video_in": 0.9676,
-          "480p_non_video_in": 0.1028,
-          "720p_non_video_in": 0.2312
+          "default": 0.2312
         }
       }
     ],
@@ -1775,8 +1775,8 @@
         "id": "google-vertex-ai",
         "pricing": {
           "input_tokens": 0.75,
-          "output_tokens": 3.75,
-          "input_cached_tokens": 0.075
+          "input_cached_tokens": 0.075,
+          "output_tokens": 3.75
         }
       }
     ],
@@ -1849,8 +1849,8 @@
         "id": "google-vertex-ai",
         "pricing": {
           "input_tokens": 2,
-          "output_tokens": 10,
-          "input_cached_tokens": 0.1
+          "input_cached_tokens": 0.1,
+          "output_tokens": 10
         }
       }
     ],
@@ -1870,7 +1870,20 @@
     "description": "High-performance multimodal video generation and editing model with conversational controls and generated audio.",
     "task": "Text-to-Video",
     "providers": null,
-    "provider_details": null,
+    "provider_details": [
+      {
+        "id": "google-ai-studio",
+        "pricing": {
+          "input_audio_tokens": 1.5,
+          "input_image_tokens": 1.5,
+          "input_text_tokens": 1.5,
+          "input_video_tokens": 1.5,
+          "output_reasoning_tokens": 10,
+          "output_text_tokens": 9,
+          "output_video_tokens": 17.5
+        }
+      }
+    ],
     "request_formats": null,
     "planned_deprecation_date": null,
     "documentation": "https://developers.cloudflare.com/ai/models/google/gemini-omni-1.1-flash/",
@@ -1889,12 +1902,12 @@
       {
         "id": "google-ai-studio",
         "pricing": {
-          "input_audio_tokens": 1.5,
-          "input_image_tokens": 1.5,
           "input_text_tokens": 1.5,
+          "input_image_tokens": 1.5,
+          "input_audio_tokens": 1.5,
           "input_video_tokens": 1.5,
-          "output_reasoning_tokens": 9,
           "output_text_tokens": 9,
+          "output_reasoning_tokens": 9,
           "output_video_tokens": 17.5
         }
       }
@@ -2393,7 +2406,7 @@
     "route": "ai-gateway",
     "provider": "meta",
     "name": "Muse Spark Open",
-    "description": "Meta's most capable open-weight model, built for agentic coding. Show it a screenshot, chart, or photo alongside your request and it reasons over both to write working code, call tools, and carry multi-step tasks across a 1M-token context.",
+    "description": "Muse Spark Open is Meta's open-weights reasoning model for coding and agentic workflows. It supports native image understanding and function calling, and is served through Fireworks serverless inference.",
     "task": "Text Generation",
     "providers": null,
     "provider_details": [
@@ -2401,8 +2414,8 @@
         "id": "fireworks",
         "pricing": {
           "input_tokens": 1.25,
-          "output_tokens": 4.25,
-          "input_cached_tokens": 0.15
+          "input_cached_tokens": 0.15,
+          "output_tokens": 4.25
         }
       }
     ],
@@ -2462,6 +2475,53 @@
     "planned_deprecation_date": null,
     "documentation": "https://developers.cloudflare.com/ai/models/minimax/h3/",
     "source": "src/content/catalog-models/minimax-h3.json"
+  },
+  {
+    "id": "ai-gateway:minimax/h3-highspeed",
+    "model": "minimax/h3-highspeed",
+    "route": "ai-gateway",
+    "provider": "minimax",
+    "name": "MiniMax H3 Highspeed",
+    "description": "A multimodal video generation model that balances quality and speed, supporting text-to-video, first and last frame image-to-video, and reference-to-video generation at 768P.",
+    "task": "Text-to-Video",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "minimax",
+        "pricing": {
+          "768p": 0.06,
+          "default": 0.06
+        }
+      }
+    ],
+    "request_formats": null,
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/minimax/h3-highspeed/",
+    "source": "src/content/catalog-models/minimax-h3-highspeed.json"
+  },
+  {
+    "id": "ai-gateway:minimax/h3-lite",
+    "model": "minimax/h3-lite",
+    "route": "ai-gateway",
+    "provider": "minimax",
+    "name": "MiniMax H3 Lite",
+    "description": "A lightweight multimodal video generation model supporting text-to-video, first and last frame image-to-video, and reference-to-video generation at 480P and 768P.",
+    "task": "Text-to-Video",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "minimax",
+        "pricing": {
+          "480p": 0.025,
+          "768p": 0.04,
+          "default": 0.025
+        }
+      }
+    ],
+    "request_formats": null,
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/minimax/h3-lite/",
+    "source": "src/content/catalog-models/minimax-h3-lite.json"
   },
   {
     "id": "ai-gateway:minimax/h3-max",
@@ -2552,8 +2612,8 @@
         "pricing": {
           "input_tokens": 0.3,
           "output_tokens": 1.2,
-          "input_cached_tokens": 0.06,
-          "input_cache_creation_tokens": 0.375
+          "input_cache_creation_tokens": 0.375,
+          "input_cached_tokens": 0.06
         }
       }
     ],
@@ -2579,11 +2639,11 @@
         "id": "minimax",
         "pricing": {
           "under_512k_per_1m_input_tokens": 0.3,
-          "under_512k_per_1m_input_cached_tokens": 0.06,
           "under_512k_per_1m_output_tokens": 1.2,
-          "over_512k_per_1m_input_tokens": 1.2,
-          "over_512k_per_1m_input_cached_tokens": 0.24,
-          "over_512k_per_1m_output_tokens": 4.8
+          "under_512k_per_1m_input_cached_tokens": 0.06,
+          "over_512k_per_1m_input_tokens": 0.6,
+          "over_512k_per_1m_output_tokens": 2.4,
+          "over_512k_per_1m_input_cached_tokens": 0.12
         }
       }
     ],
@@ -2704,8 +2764,8 @@
         "id": "moonshot",
         "pricing": {
           "input_tokens": 3,
-          "output_tokens": 15,
-          "input_cached_tokens": 0.3
+          "input_cached_tokens": 0.3,
+          "output_tokens": 15
         }
       }
     ],
@@ -2813,8 +2873,8 @@
       }
     ],
     "request_formats": [
-      "responses",
-      "chat-completions"
+      "chat-completions",
+      "responses"
     ],
     "planned_deprecation_date": null,
     "documentation": "https://developers.cloudflare.com/ai/models/openai/gpt-4.1-nano/",
@@ -3174,10 +3234,15 @@
       {
         "id": "openai",
         "pricing": {
-          "input_tokens": 0.2,
-          "output_tokens": 1.2,
-          "input_cached_tokens": 0.02,
-          "input_cache_creation_tokens": 0.25
+          "long_context_threshold_tokens": 272000,
+          "short_context_input_tokens": 0.2,
+          "short_context_input_cached_tokens": 0.02,
+          "short_context_input_cache_creation_tokens": 0.25,
+          "short_context_output_tokens": 1.2,
+          "long_context_input_tokens": 0.4,
+          "long_context_input_cached_tokens": 0.04,
+          "long_context_input_cache_creation_tokens": 0.5,
+          "long_context_output_tokens": 1.8
         }
       }
     ],
@@ -3201,10 +3266,15 @@
       {
         "id": "openai",
         "pricing": {
-          "input_tokens": 2,
-          "output_tokens": 10,
-          "input_cached_tokens": 0.25,
-          "input_cache_creation_tokens": 3.125
+          "long_context_threshold_tokens": 272000,
+          "short_context_input_tokens": 4,
+          "short_context_input_cached_tokens": 0.4,
+          "short_context_input_cache_creation_tokens": 5,
+          "short_context_output_tokens": 20,
+          "long_context_input_tokens": 8,
+          "long_context_input_cached_tokens": 0.8,
+          "long_context_input_cache_creation_tokens": 10,
+          "long_context_output_tokens": 30
         }
       }
     ],
@@ -3228,10 +3298,15 @@
       {
         "id": "openai",
         "pricing": {
-          "input_tokens": 2,
-          "output_tokens": 12,
-          "input_cached_tokens": 0.2,
-          "input_cache_creation_tokens": 2.5
+          "long_context_threshold_tokens": 272000,
+          "short_context_input_tokens": 2,
+          "short_context_input_cached_tokens": 0.2,
+          "short_context_input_cache_creation_tokens": 2.5,
+          "short_context_output_tokens": 12,
+          "long_context_input_tokens": 4,
+          "long_context_input_cached_tokens": 0.4,
+          "long_context_input_cache_creation_tokens": 5,
+          "long_context_output_tokens": 18
         }
       }
     ],
@@ -3421,8 +3496,8 @@
         "id": "openai",
         "pricing": {
           "input_tokens": 5,
-          "output_tokens": 10,
-          "input_cached_tokens": 1.25
+          "input_cached_tokens": 1.25,
+          "output_tokens": 10
         }
       }
     ],
@@ -3444,10 +3519,10 @@
       {
         "id": "openai",
         "pricing": {
-          "input_cached_image_tokens": 2,
-          "input_cached_tokens": 1.25,
-          "input_image_tokens": 8,
           "input_tokens": 5,
+          "input_image_tokens": 8,
+          "input_cached_tokens": 1.25,
+          "input_cached_image_tokens": 2,
           "output_image_tokens": 30,
           "output_tokens": 10
         }
@@ -3634,6 +3709,32 @@
     "planned_deprecation_date": null,
     "documentation": "https://developers.cloudflare.com/ai/models/openai/tts-1-hd/",
     "source": "src/content/catalog-models/openai-tts-1-hd.json"
+  },
+  {
+    "id": "ai-gateway:particle/particle-1",
+    "model": "particle/particle-1",
+    "route": "ai-gateway",
+    "provider": "particle",
+    "name": "Particle-1",
+    "description": "Particle-1 is Particle AI's reasoning model for chat, agentic coding, and tool use. It accepts text and images, with a 1,048,576-token context window, streaming responses, and configurable reasoning effort.",
+    "task": "Text Generation",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "particle",
+        "pricing": {
+          "input_tokens": 0.25,
+          "input_cached_tokens": 0.03,
+          "output_tokens": 1
+        }
+      }
+    ],
+    "request_formats": [
+      "chat-completions"
+    ],
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/particle/particle-1/",
+    "source": "src/content/catalog-models/particle-particle-1.json"
   },
   {
     "id": "ai-gateway:pixverse/v5.6",
@@ -3958,7 +4059,7 @@
       {
         "id": "recraft",
         "pricing": {
-          "output_image_count": 0.04
+          "output_image_count": 0.035
         }
       }
     ],
@@ -4002,7 +4103,7 @@
       {
         "id": "recraft",
         "pricing": {
-          "output_image_count": 0.25
+          "output_image_count": 0.21
         }
       }
     ],
@@ -4046,7 +4147,7 @@
       {
         "id": "recraft",
         "pricing": {
-          "output_image_count": 0.04
+          "output_image_count": 0.035
         }
       }
     ],
@@ -4068,7 +4169,7 @@
       {
         "id": "recraft",
         "pricing": {
-          "output_image_count": 0.25
+          "output_image_count": 0.21
         }
       }
     ],
@@ -4218,7 +4319,16 @@
     "description": "Beam-1.0-501B-A23B is Reflection AI's open-weights mixture-of-experts model with 501B total parameters and 23B active parameters, built for coding, reasoning, and agentic workloads.",
     "task": "Text Generation",
     "providers": null,
-    "provider_details": null,
+    "provider_details": [
+      {
+        "id": "reflection-ai",
+        "pricing": {
+          "input_tokens": 0,
+          "input_cached_tokens": 0,
+          "output_tokens": 0
+        }
+      }
+    ],
     "request_formats": [
       "chat-completions"
     ],
@@ -4325,6 +4435,50 @@
     "source": "src/content/catalog-models/thinkingmachines-inkling-256k.json"
   },
   {
+    "id": "ai-gateway:topaz/gigapixel-high-fidelity-3",
+    "model": "topaz/gigapixel-high-fidelity-3",
+    "route": "ai-gateway",
+    "provider": "topaz",
+    "name": "Gigapixel High Fidelity 3",
+    "description": "Topaz Labs Gigapixel High Fidelity 3 is a precision image upscaler tuned for high-resolution sources and professional photography, preserving fine texture and detail with minimal alteration. It adds recovery-strength and opacity controls over High Fidelity 2.",
+    "task": "Image-to-Image",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "topaz",
+        "pricing": {
+          "units": 0.12
+        }
+      }
+    ],
+    "request_formats": null,
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/topaz/gigapixel-high-fidelity-3/",
+    "source": "src/content/catalog-models/topaz-gigapixel-high-fidelity-3.json"
+  },
+  {
+    "id": "ai-gateway:topaz/gigapixel-standard-2",
+    "model": "topaz/gigapixel-standard-2",
+    "route": "ai-gateway",
+    "provider": "topaz",
+    "name": "Gigapixel Standard 2",
+    "description": "Topaz Labs Gigapixel Standard 2 is a general-purpose precision image upscaler that balances detail, sharpness, and noise reduction while staying true to the source. It is the recommended default for photos, graphics, and print, with optional face recovery.",
+    "task": "Image-to-Image",
+    "providers": null,
+    "provider_details": [
+      {
+        "id": "topaz",
+        "pricing": {
+          "units": 0.12
+        }
+      }
+    ],
+    "request_formats": null,
+    "planned_deprecation_date": null,
+    "documentation": "https://developers.cloudflare.com/ai/models/topaz/gigapixel-standard-2/",
+    "source": "src/content/catalog-models/topaz-gigapixel-standard-2.json"
+  },
+  {
     "id": "ai-gateway:topaz/starlight-fast-2",
     "model": "topaz/starlight-fast-2",
     "route": "ai-gateway",
@@ -4374,7 +4528,7 @@
     "route": "ai-gateway",
     "provider": "typesafe",
     "name": "Jev",
-    "description": "Jev is TypeSafe's structured evaluation model. It evaluates one state against typed Noul, Choice, and Score questions and returns calibrated answers with probabilities and confidence.",
+    "description": "Jev 1.13 is TypeSafe's structured evaluation model. It evaluates one state against typed Noul, Choice, and Score questions and returns calibrated answers with probabilities and confidence. Image inputs are beta and dreamer-ready, not recommended for production.",
     "task": "Text Generation",
     "providers": null,
     "provider_details": [
@@ -4382,8 +4536,8 @@
         "id": "typesafe",
         "pricing": {
           "input_tokens": 0.042,
-          "output_tokens": 0,
-          "input_cached_tokens": 0
+          "input_cached_tokens": 0,
+          "output_tokens": 0
         }
       }
     ],
@@ -4430,8 +4584,8 @@
         "id": "unbiased",
         "pricing": {
           "input_tokens": 2.5,
-          "output_tokens": 7.5,
-          "input_cached_tokens": 0.25
+          "input_cached_tokens": 0.25,
+          "output_tokens": 7.5
         }
       }
     ],
@@ -4671,8 +4825,8 @@
           "under_200k_per_1m_input_cached_tokens": 0.5,
           "under_200k_per_1m_output_tokens": 6,
           "over_200k_per_1m_input_tokens": 4,
-          "over_200k_per_1m_input_cached_tokens": 1,
-          "over_200k_per_1m_output_tokens": 12
+          "over_200k_per_1m_output_tokens": 12,
+          "over_200k_per_1m_input_cached_tokens": 1
         }
       }
     ],
@@ -4789,9 +4943,10 @@
       {
         "id": "xai",
         "pricing": {
-          "default": 0.08,
           "480p": 0.08,
-          "720p": 0.14
+          "720p": 0.14,
+          "default": 0.08,
+          "1080p": 0.25
         }
       }
     ],

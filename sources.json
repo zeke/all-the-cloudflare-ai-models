@@ -1,10 +1,10 @@
 {
   "repository": "https://github.com/cloudflare/cloudflare-docs",
-  "revision": "8e6c9edb78a17275b5b04cd38ded4cd98ea72699",
+  "revision": "3a8808ee6f0863c707ef4cfdef1e0874a7a7f9fa",
   "catalog": "https://developers.cloudflare.com/ai/models/",
   "counts": {
     "workers-ai": 73,
-    "ai-gateway": 194
+    "ai-gateway": 199
   },
   "files": [
     {
@@ -29,27 +29,27 @@
     },
     {
       "path": "src/content/catalog-models/alibaba-qwen-image-3.0-pro.json",
-      "sha": "9f39a11d50886f04d38406ef8c365f1bc908de30"
+      "sha": "b8ea93b82fdd7487939da290d71b55aaa4e27a17"
     },
     {
       "path": "src/content/catalog-models/alibaba-qwen3-max.json",
-      "sha": "af8219c5c3a6a185cea02d06272dbe4fd2a16543"
+      "sha": "a06379d301b609cbbdfbe97d74f6b39c44218078"
     },
     {
       "path": "src/content/catalog-models/alibaba-qwen3.5-397b-a17b.json",
-      "sha": "1696bdf32dee3d9a9888947b8a707832da632ec2"
+      "sha": "041fe88cccd2e3ecb4968fefe5de3c80b8788f8a"
     },
     {
       "path": "src/content/catalog-models/alibaba-qwen3.7-max.json",
-      "sha": "60f7ab306522f7a15728ad2dee49c8c97d7be44d"
+      "sha": "251aaf7de56c20f0ad072f653f3825dac5eb56a5"
     },
     {
       "path": "src/content/catalog-models/alibaba-qwen3.7-plus.json",
-      "sha": "ad8b8a968f04b28e3dd1fc448ac0ef8a05567b0d"
+      "sha": "ba5fae9f36e9b5b374c5c6b81b92233af67889b4"
     },
     {
       "path": "src/content/catalog-models/alibaba-qwen3.8-max.json",
-      "sha": "298f26a892571abd5deb452ebdd72509915ad00d"
+      "sha": "be37a0f6ce02e42e96c9f4aed995e96b63f1e2a0"
     },
     {
       "path": "src/content/catalog-models/alibaba-wan-2.6-image.json",
@@ -69,59 +69,59 @@
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-fable-5.1.json",
-      "sha": "133d663c0e93aed893b21eea5acecc6832c26d9e"
+      "sha": "ea71caf049b002d3e1a16942cf08462fdc5ee48e"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-fable-5.json",
-      "sha": "edd0dda5ba7ad436dba874b3f4df5c814ffe11c9"
+      "sha": "ce836246c0ce379d43b6b28f76093de3c7b279cd"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-haiku-4.5.json",
-      "sha": "e13f1b876594f9593dc6d7ef1016718dc1103526"
+      "sha": "57178ad726eb9d8eecdf77a9b198732502ba716e"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-haiku-5.5.json",
-      "sha": "aa02de340bd826ae30a4ed6ad38e46a3f49ed418"
+      "sha": "2ef1b8e45120f0ba6011f7a63a3bca887f0a7b33"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-opus-4.5.json",
-      "sha": "f2fbb853b751ba45b606d9fa49d7ddf1c08acfd3"
+      "sha": "70ad4b237b547c11581f8750ed4bedb5e966f53d"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-opus-4.6.json",
-      "sha": "58a9571ad3406e7eec949fb7334a2b28cf163ad5"
+      "sha": "766d622580ac8ec91a518118592b632bed2eed5f"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-opus-4.7.json",
-      "sha": "24d409567e56c4f552c9a00db73e45f6d6cf2acd"
+      "sha": "e79dc8144da7c42869c420fc154c2f7c9612e396"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-opus-4.8.json",
-      "sha": "6cb8056d43eab0fc1653aca9626647a17b086b46"
+      "sha": "769e86150696efb62107efb457ae80c9cf3c086b"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-opus-5.5.json",
-      "sha": "820274e693c49661566dc2567f17a69b0845409d"
+      "sha": "31b52bbe0c92edde2e55e9c516c30b832e3e527a"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-opus-5.json",
-      "sha": "81f636d0ccf0d4c18cc110793c7936b1d7a3e1c3"
+      "sha": "110d671e6395c44d9dab7eace5ccead28864ec95"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-sonnet-4.5.json",
-      "sha": "ec0df7b0ba991372c5050d2ab57418f8e832fbd6"
+      "sha": "ea268fbcc7e90e1b5dae695b58a06f9667ac6982"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-sonnet-4.6.json",
-      "sha": "35845b700b02db8959e90bb1187df37e97714b0a"
+      "sha": "cd19918e98bfc9350147aad50d446d0009e77994"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-sonnet-5.5.json",
-      "sha": "e183dc3b9b4ee0306db519763cda9d05570f7202"
+      "sha": "d88cbe1be41eb3926683a4b430cb111dd4733346"
     },
     {
       "path": "src/content/catalog-models/anthropic-claude-sonnet-5.json",
-      "sha": "08af119797a9f465a9bf574242e4220dd04df0f2"
+      "sha": "7f3d07cb06445993de3e4ac1dcd6391663c4c19d"
     },
     {
       "path": "src/content/catalog-models/assemblyai-universal-3-pro.json",
@@ -157,7 +157,7 @@
     },
     {
       "path": "src/content/catalog-models/black-forest-labs-flux-3-video.json",
-      "sha": "599be753cc279c7cb18daeaa71217a43c7e4aa2b"
+      "sha": "359aa43e0cf7c4dd3810f8103d1f1cb687431db1"
     },
     {
       "path": "src/content/catalog-models/black-forest-labs-flux-video-upscale.json",
@@ -185,19 +185,19 @@
     },
     {
       "path": "src/content/catalog-models/bytedance-seedance-2.0-fast.json",
-      "sha": "9bbfd67961273175922d55e1ff1fc96540af7513"
+      "sha": "6747429cf1cc196abe5d0c7a44598b633ae01f6d"
     },
     {
       "path": "src/content/catalog-models/bytedance-seedance-2.0-mini.json",
-      "sha": "e0f2389ec906146776d77a66dbf122850bdc9004"
+      "sha": "a7dbb94d507d962aef7fcefbc2c9cc2d958f34f7"
     },
     {
       "path": "src/content/catalog-models/bytedance-seedance-2.0.json",
-      "sha": "fd1a92f2dd77919ce8f97c9cfb6d01c9bc818e59"
+      "sha": "df9a95be5c8c6aa45d6f1d87a0a347a548251f66"
     },
     {
       "path": "src/content/catalog-models/bytedance-seedance-2.5.json",
-      "sha": "faf859464bc9ee603905e3c8e0d55a1ee8ee716d"
+      "sha": "08f59191220a12fb3a1b77da74e21d9ff878e760"
     },
     {
       "path": "src/content/catalog-models/bytedance-seedream-4.0.json",
@@ -213,7 +213,7 @@
     },
     {
       "path": "src/content/catalog-models/bytedance-seedream-5-pro.json",
-      "sha": "17e7f048d34e9a1e75624aacbb3bc78d5dcb1c7a"
+      "sha": "36b35d502e7368f123236dc502b5bec15488eca9"
     },
     {
       "path": "src/content/catalog-models/deepseek-deepseek-v4-pro.json",
@@ -221,39 +221,39 @@
     },
     {
       "path": "src/content/catalog-models/elevenlabs-eleven-flash-v2-5.json",
-      "sha": "d787016a82c2b1af1927bea0b23a5b65d905799d"
+      "sha": "744d997504934da97c3c1c831f4a2e71242a8782"
     },
     {
       "path": "src/content/catalog-models/elevenlabs-eleven-multilingual-v2.json",
-      "sha": "a16a8431236b68e79328c99a5d35fc903ba23d41"
+      "sha": "6588836f8c2e028703fce768753092f3c5efa0dd"
     },
     {
       "path": "src/content/catalog-models/elevenlabs-eleven-turbo-v2-5.json",
-      "sha": "952d001319b1d702d6a97e18f861e9d00e7a9d6b"
+      "sha": "dcaa70c9f30acdcc41385881f155478e2c0e4704"
     },
     {
       "path": "src/content/catalog-models/elevenlabs-eleven-v3.json",
-      "sha": "1e20f170b639ed67d9685616043f8dff63fa31ab"
+      "sha": "0a7a9f600a7cc91d5df640cd5095e28ffe9dedaa"
     },
     {
       "path": "src/content/catalog-models/elevenlabs-music-v2.json",
-      "sha": "5a2302f729627fce4344d8bd28b11362f1f24f78"
+      "sha": "e1040ed09a5e87ef13c0b03528b904dca56daf14"
     },
     {
       "path": "src/content/catalog-models/fireworks-ember-1.json",
-      "sha": "68be7e7a583aee4cc752945a8e39802a5a671cc9"
+      "sha": "85fc8e49acda1b9c94e5905b4056a967e7d6c13a"
     },
     {
       "path": "src/content/catalog-models/google-gemini-2.5-flash-lite.json",
-      "sha": "ea6152d99b1c460d7e79f1e7a95af3b2a54ee759"
+      "sha": "3c2c38140a4a2a06ba48c6a47b27913ca252c86f"
     },
     {
       "path": "src/content/catalog-models/google-gemini-2.5-flash.json",
-      "sha": "be82afa4456efecb2376abaf48212490019dcdc8"
+      "sha": "dca1bf6950f1fca7ea8f98ab99f9d6e8384f3400"
     },
     {
       "path": "src/content/catalog-models/google-gemini-2.5-pro.json",
-      "sha": "657d4bf1cf192e535e7a370559811a3f9511b53c"
+      "sha": "442edf3d3226da2efdfd831b8f95dbf5f68bd522"
     },
     {
       "path": "src/content/catalog-models/google-gemini-3-flash.json",
@@ -289,27 +289,27 @@
     },
     {
       "path": "src/content/catalog-models/google-gemini-3.8-flash-lite-tts.json",
-      "sha": "22588b09a422bf7b3aa15bb8f415d98523ef5bcc"
+      "sha": "074cf48e36b98e498078614490765549d6412e7a"
     },
     {
       "path": "src/content/catalog-models/google-gemini-3.8-flash-tts.json",
-      "sha": "aceb2feae51b6ea7a3db7c243ef9432ab093db5e"
+      "sha": "bbff35cba2cf57d15589d59a2910b69b84bdb51e"
     },
     {
       "path": "src/content/catalog-models/google-gemini-3.8-flash.json",
-      "sha": "6fd90dd319e63ff56f749a4918bab92bc8404ad4"
+      "sha": "0128134334d8af78ddc5b3f5f4fbd681ef9926db"
     },
     {
       "path": "src/content/catalog-models/google-gemini-4-argon.json",
-      "sha": "08c84a70f981c78e9f8134db949e9c4a44dced33"
+      "sha": "74c0bbbbd267c8d7dcd7fa3f33eee3f45a052375"
     },
     {
       "path": "src/content/catalog-models/google-gemini-omni-1.1-flash.json",
-      "sha": "6131d8c96026a72efb53a4ca8a650bf23de57b30"
+      "sha": "c4398c2a77d295ceba5188f2ee9a7bd2dd0cf4f0"
     },
     {
       "path": "src/content/catalog-models/google-gemini-omni-flash.json",
-      "sha": "b5c2465c451167587724526d0f79590496b7f73a"
+      "sha": "ab2a77db38ef41bfbf8fe7492adc193a9f4fcf12"
     },
     {
       "path": "src/content/catalog-models/google-nano-banana-2-lite.json",
@@ -361,19 +361,19 @@
     },
     {
       "path": "src/content/catalog-models/krea-krea-2-large.json",
-      "sha": "adb922212746e7da90016c43f27b0c336c23f91d"
+      "sha": "c1981f2b440df557cedf2aa50f9312bed2f51b05"
     },
     {
       "path": "src/content/catalog-models/krea-krea-2-medium-turbo.json",
-      "sha": "2462ee7afc72d44a5377f03f7f71515af8334aea"
+      "sha": "e60ad911a0dd236008305336f2ba3d707082679b"
     },
     {
       "path": "src/content/catalog-models/krea-krea-2-medium.json",
-      "sha": "ec0106da4478889ffb2b7a8568c7df99f31a669e"
+      "sha": "92c174375a4903da5a18c2265bc8cbbaa7b66844"
     },
     {
       "path": "src/content/catalog-models/krea-krea-3.json",
-      "sha": "984930cc6c96c48924d9f46815ef36516757a0a2"
+      "sha": "4040c424c1d1708eb4b842a8ce733293a685a084"
     },
     {
       "path": "src/content/catalog-models/lightricks-ltx-2-5-fast.json",
@@ -381,23 +381,31 @@
     },
     {
       "path": "src/content/catalog-models/meta-muse-spark-1.1.json",
-      "sha": "aa076b4bddaa8dde94b8472d163fd0cbbf4654d7"
+      "sha": "74230ae8c9e15bc906d91a5b309c521087c44448"
     },
     {
       "path": "src/content/catalog-models/meta-muse-spark-1.2.json",
-      "sha": "c35acefff59d7c8a2ced0212fd6c6422261dcfed"
+      "sha": "31a91f00159aedbcb49d05b809cd7083854c8a94"
     },
     {
       "path": "src/content/catalog-models/meta-muse-spark-1.3.json",
-      "sha": "4ae4d31d627fd07ef96e7869d7a8a1949380af6a"
+      "sha": "aeb7e48ee64072a3e14456d21c4b15cd70b7d867"
     },
     {
       "path": "src/content/catalog-models/meta-muse-spark-open.json",
-      "sha": "6424956dc7835db5ae1836dec7d0f5cc80843f8c"
+      "sha": "ca1c1edaa52c9c18dd295b347e0048e5d8762ce5"
     },
     {
       "path": "src/content/catalog-models/meta-muse-wonder-1.0.json",
-      "sha": "b4221aaf883024257ed4910e16536be470e0e0f7"
+      "sha": "71c59b6f3fb5b7004df9ae70dcd76437c42052c7"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-h3-highspeed.json",
+      "sha": "d9823e1fff7cb004f88a5036dcd80f0fd5f1fa53"
+    },
+    {
+      "path": "src/content/catalog-models/minimax-h3-lite.json",
+      "sha": "031dbac943bf948816bbe0bb5ca14fbb4c547af3"
     },
     {
       "path": "src/content/catalog-models/minimax-h3-max.json",
@@ -417,15 +425,15 @@
     },
     {
       "path": "src/content/catalog-models/minimax-m2.7.json",
-      "sha": "daf567fb802cb7bac6f98e39ccc7cbf9cc547b0b"
+      "sha": "290ba15d849cbf44bf64e4a857b52189474d8a7d"
     },
     {
       "path": "src/content/catalog-models/minimax-m3.1-flash.json",
-      "sha": "d3994c8ff2b192ce52d87fc504615a4b6817d584"
+      "sha": "9fb033c8f19d6d83cd626f89b7e8d2ae02b6c032"
     },
     {
       "path": "src/content/catalog-models/minimax-m3.json",
-      "sha": "ecd047b66f49c817108286ef9e9c6fcd7f1f11c0"
+      "sha": "18ab43f238ad57a37fc27e366ba97424e63e62e6"
     },
     {
       "path": "src/content/catalog-models/minimax-music-2.6.json",
@@ -441,27 +449,27 @@
     },
     {
       "path": "src/content/catalog-models/moonshotai-kimi-k3.json",
-      "sha": "13e69b46f772ad430be60aa8a8fcf2933b70f860"
+      "sha": "2b20b44ee159e528b1cde6be2dfce7bf4bf9bcc9"
     },
     {
       "path": "src/content/catalog-models/openai-decisions.json",
-      "sha": "eff765ffd5607afff4f3dc0c5b09369e805ab6cc"
+      "sha": "a8433287ff14a6a3c1a58ef9adee751890b49a4a"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-4.1-mini.json",
-      "sha": "6e3af5c69daae4691b1feba9395afd29e332dccc"
+      "sha": "88ee03364099dc07bd4dfa8bdbb83b2ae8347ed6"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-4.1-nano.json",
-      "sha": "8bccc73c4d0bb872df42d34a0d4fc23da9dfac09"
+      "sha": "2dce273173e79f37e746c5ab54c93b2f8ef1210f"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-4.1.json",
-      "sha": "4fac76d0a319c7de067782ea3e647fef5db0ca9b"
+      "sha": "821e0d9dd94918ec1d4f78de6fb0291938df22fb"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-4o-mini.json",
-      "sha": "c73defef16d5f462597d28446fa601ae15ce1f1a"
+      "sha": "c62394e77a1f3d79244d8b028f3eed2cad65a908"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-4o-transcribe.json",
@@ -469,83 +477,83 @@
     },
     {
       "path": "src/content/catalog-models/openai-gpt-4o.json",
-      "sha": "8ec676936b7b3b10a78fc6a9e1def01436f213c6"
+      "sha": "dd3e80dec6311834ea4e9bd3469934140124eefe"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5-mini.json",
-      "sha": "8c3dd5dbfc76bc9eeb00cca60be3ff30f0921310"
+      "sha": "ee4bc5e0a12cd06b82dbcfe8f4ddaceed58fe642"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5-nano.json",
-      "sha": "292802b9b07c9aa9a688906bef77e76f14ec54f8"
+      "sha": "7bd97c7182c62aba4e7ddb6b1b1c0445ed7928b3"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.1.json",
-      "sha": "b9918ee0ba17e034687a72ef468d2dd89e71a22a"
+      "sha": "a02eba314f10759b0ddd726ea2b2095a1ae55c7a"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.4-mini.json",
-      "sha": "d17d1d317684741f2579480f37d9a40f2effdc57"
+      "sha": "b58e3e2a100056711df413c810316bdaada6e981"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.4-nano.json",
-      "sha": "83971a917d13220c6a42527973db7074fbfd7591"
+      "sha": "ebdd107d1a7bf3eb432d6045fecd03efc4458dff"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.4-pro.json",
-      "sha": "021da8b024ee0b5680cea21d408b664cdd324282"
+      "sha": "0846d3097cadf90f1d88d390e5d8c56b61cdd772"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.4.json",
-      "sha": "0258b568d40e8e691e00b32ed66192d627cda4fc"
+      "sha": "eb057acb91f4ed0020f021b2925fd7137afafb8c"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.5-pro.json",
-      "sha": "b7f02fa7b98e2bb5c91f71dc50d1b1d7d7ae0040"
+      "sha": "17781918ac171fd249d5933169f15e5c64e5de6f"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.5.json",
-      "sha": "e1a0a095c23aaf380164cf27dfac01b74b523e91"
+      "sha": "50686cf336eb44ca0e48a440ed5cc27031799aea"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.6-luna.json",
-      "sha": "9e65d1bd0cfd1c33bdc25d1d46707e726de1451f"
+      "sha": "477a50f39d07bf267c4ae02a0179b289337aba44"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.6-sol.json",
-      "sha": "e6c9f8ef0c3aaccf9f5d18187fe699a48748bac6"
+      "sha": "f6ab1d26722ed20c22207bef5bb3e03f4fa0608f"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.6-terra.json",
-      "sha": "fd9ec6a7c9b39a15477147356dcd27d073a93f72"
+      "sha": "6623ace6a5d37e4aba9707355871cfd366233d34"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-5.json",
-      "sha": "6f09cbe1b1e7d672d658f250b23975206a5a8b70"
+      "sha": "e37e38ac352dd31c2fa7a53aeb6204af4a2d6093"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-6-astra.json",
-      "sha": "f04d27bd1bf5003845ccf1d62f6e432392cea2e6"
+      "sha": "fd71d069d96621fe61a98b69f49fe013dcf9cb1c"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-6-luna.json",
-      "sha": "4b03410af6bb4557fbb6fa0d29a0c5641c5910f0"
+      "sha": "c607fdd4530959e73fe6b8a1737565c15d71d5a5"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-6-sol.json",
-      "sha": "fa0e884c84d2a63110370ca31dd66a1704ccfcf6"
+      "sha": "a9546e58f8f8493ce9c4bb7de3235c36e760576d"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-6.1-sol.json",
-      "sha": "7354fd9857eb505bff6b69909634115fd5afdaae"
+      "sha": "83c642036cdd9a1a3519631d106b6d9c36418393"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-6.1-terra.json",
-      "sha": "2d805e64cecfc304fed0506c0c97e8f897d35c38"
+      "sha": "cd9534f67d23f25c58135a42a46af7f84c341a08"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-image-1.5.json",
-      "sha": "a5a4f2272febdf6b8d48ee7d57d7e13706e3272b"
+      "sha": "482edfd5e29fde9a875126d37bf4fec15bc5c005"
     },
     {
       "path": "src/content/catalog-models/openai-gpt-image-2.5-flare.json",
@@ -557,19 +565,19 @@
     },
     {
       "path": "src/content/catalog-models/openai-gpt-image-2.json",
-      "sha": "d5e90bd231ed7abe81c2f67de8bf74455a5a3e5b"
+      "sha": "4c12fb1fe0754a22a0aa26d7f989be80a1f45ea6"
     },
     {
       "path": "src/content/catalog-models/openai-o3-mini.json",
-      "sha": "034ef38f2231720b582fe8ff49794cb261cf5408"
+      "sha": "041dbf638b0d21459855a289c995e43ed02d536b"
     },
     {
       "path": "src/content/catalog-models/openai-o3.json",
-      "sha": "7888dfeb6dd615084cce1044956ec37ad79baf12"
+      "sha": "d692e1fe4c3c28abf30ebb95ad4479365430c304"
     },
     {
       "path": "src/content/catalog-models/openai-o4-mini.json",
-      "sha": "85290d32f22297d08b25922b074f1b228f53f4a9"
+      "sha": "8e11a685e84b69cc73a5a0b30040ae62c4659dec"
     },
     {
       "path": "src/content/catalog-models/openai-tts-1-hd.json",
@@ -578,6 +586,10 @@
     {
       "path": "src/content/catalog-models/openai-tts-1.json",
       "sha": "d0f137e71193393ddc4b4480c49efd44e5477efc"
+    },
+    {
+      "path": "src/content/catalog-models/particle-particle-1.json",
+      "sha": "c599d733f306d680519fc44ef35887112c51e7de"
     },
     {
       "path": "src/content/catalog-models/pixverse-v5.6.json",
@@ -633,7 +645,7 @@
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-1-pro.json",
-      "sha": "8be96a6d7288892e871935ec3bc9c22100301499"
+      "sha": "be7f584fe03b668cd3e031c0669b753082777761"
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-1-utility-pro-vector.json",
@@ -641,7 +653,7 @@
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-1-utility-pro.json",
-      "sha": "8e0e2b6e7b4ed166fcb1276b775431e14f644960"
+      "sha": "def2d8243e8371678b1025e278886de5e44f288c"
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-1-utility-vector.json",
@@ -649,7 +661,7 @@
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-1-utility.json",
-      "sha": "c7e41b5fa3d8bf344c2582a3fd325fcb232d2c45"
+      "sha": "25b99c0442b5e4dae40e6b29743a37ee6a73fa93"
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-1-vector.json",
@@ -657,7 +669,7 @@
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-1.json",
-      "sha": "e83d9f3316fc8af326f2ffae990089e95ec3ad98"
+      "sha": "29c59f2d33ed3fc5e34596e99d433ee697e4f63f"
     },
     {
       "path": "src/content/catalog-models/recraft-recraftv4-pro-vector.json",
@@ -677,7 +689,7 @@
     },
     {
       "path": "src/content/catalog-models/reflection-ai-beam-1.0-501b-a23b.json",
-      "sha": "e8d36584775e3477bf8debaf23a064a2cbca96f5"
+      "sha": "79a9be90d6addb95a7b992f6c9ce2aca05d6876c"
     },
     {
       "path": "src/content/catalog-models/runwayml-aleph-2.json",
@@ -689,11 +701,19 @@
     },
     {
       "path": "src/content/catalog-models/thinkingmachines-inkling-256k.json",
-      "sha": "2b5d30ff1eb019e04931ab3fce10ffdb8555847f"
+      "sha": "86024c249d42065446a3fb0f8cbe06658f81f46e"
     },
     {
       "path": "src/content/catalog-models/thinkingmachines-inkling.json",
-      "sha": "7c6180a0e04f79603762c2da27c5be7a31bd5536"
+      "sha": "fc4ebd789a243dcd9f2804010df0d13c604e5242"
+    },
+    {
+      "path": "src/content/catalog-models/topaz-gigapixel-high-fidelity-3.json",
+      "sha": "8f2431307a4228aa871f4294c1f2aae71bd28214"
+    },
+    {
+      "path": "src/content/catalog-models/topaz-gigapixel-standard-2.json",
+      "sha": "528076458a2191069b187a9308f7d49a439fb554"
     },
     {
       "path": "src/content/catalog-models/topaz-starlight-fast-2.json",
@@ -705,15 +725,15 @@
     },
     {
       "path": "src/content/catalog-models/typesafe-jev-1.14.0.json",
-      "sha": "297a981207c0677897e6250feda7860356c88aeb"
+      "sha": "bcdb327e093e6ded59f178b52d69e2bff91b88b0"
     },
     {
       "path": "src/content/catalog-models/typesafe-jev.json",
-      "sha": "529f578b65dfa85c9c02e1debae070633f510e52"
+      "sha": "56663298edd3e68bc4686e02dda41fd38baa40b1"
     },
     {
       "path": "src/content/catalog-models/unbiased-pareto.json",
-      "sha": "b5030b5629ff1acaaa013c80cc9823c2fb3395bc"
+      "sha": "54c33a5ac7f5c93e5936ac07dee8c7df96f975e2"
     },
     {
       "path": "src/content/catalog-models/vidu-q3-pro.json",
@@ -725,31 +745,31 @@
     },
     {
       "path": "src/content/catalog-models/xai-grok-4.20-0309-non-reasoning.json",
-      "sha": "11db2c0c308c4352881aaa115e0c8ee43b4a6847"
+      "sha": "a23f2e0adfec425a1526afc03ff7d9a28bc3cea6"
     },
     {
       "path": "src/content/catalog-models/xai-grok-4.20-0309-reasoning.json",
-      "sha": "a44597d5e8d1275c1814408759b9b06fd9f1d03e"
+      "sha": "d6b1cea3dc25020f5c00d7766c7d37c118b533d1"
     },
     {
       "path": "src/content/catalog-models/xai-grok-4.20-multi-agent-0309.json",
-      "sha": "1b72f86cdefcfd9e5c295af7ff93535c888c658a"
+      "sha": "50179a7f0191a8da2bfabfacd8fc733ea7caf081"
     },
     {
       "path": "src/content/catalog-models/xai-grok-4.3.json",
-      "sha": "b593dfcb66b05871e8c808975cc4791ffa276500"
+      "sha": "8bdd0a64d5a68fa29af4fe92491e4d2404a5a344"
     },
     {
       "path": "src/content/catalog-models/xai-grok-4.5.json",
-      "sha": "1b204de8dcdec98d9b0eb0b68741f295154a171f"
+      "sha": "093ac6c90f895d06c09be70d08e74e4b8aaf4279"
     },
     {
       "path": "src/content/catalog-models/xai-grok-4.6.json",
-      "sha": "58d2e56e0dd5140585c72dfc085915a460d53e18"
+      "sha": "82033ed2e3a0b161b27b09ab96b0bb9c5800d257"
     },
     {
       "path": "src/content/catalog-models/xai-grok-4.7.json",
-      "sha": "030f83b099f976c39f2e005031ebd5feecbb00fa"
+      "sha": "8ba48bbe20e534a1306883c22dea375688ac2354"
     },
     {
       "path": "src/content/catalog-models/xai-grok-imagine-image-2.0.json",
@@ -765,7 +785,7 @@
     },
     {
       "path": "src/content/catalog-models/xai-grok-imagine-video-1.5-preview.json",
-      "sha": "ba5f894c6bf3c1c5740f3cc7b7ec9f9c99efb783"
+      "sha": "66860d4b8df76573f6d1f8a9a408ce86c1ea69d3"
     },
     {
       "path": "src/content/catalog-models/xai-grok-imagine-video.json",
