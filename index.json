@@ -5199,7 +5199,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/bytedance/stable-diffusion-xl-lightning/",
     "source": "src/content/workers-ai-models/stable-diffusion-xl-lightning.json"
   },
@@ -5364,7 +5364,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/deepseek-ai/deepseek-r1-distill-qwen-32b/",
     "source": "src/content/workers-ai-models/deepseek-r1-distill-qwen-32b.json"
   },
@@ -5379,7 +5379,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/deepseek-ai/deepseek-v4-flash-0731/",
     "source": "src/content/workers-ai-models/deepseek-v4-flash-0731.json"
   },
@@ -5394,7 +5394,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/deepseek-ai/deepseek-v4-pro-0813/",
     "source": "src/content/workers-ai-models/deepseek-v4-pro-0813.json"
   },
@@ -5424,7 +5424,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/google/embeddinggemma-300m/",
     "source": "src/content/workers-ai-models/embeddinggemma-300m.json"
   },
@@ -5439,7 +5439,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/google/gemma-2b-it-lora/",
     "source": "src/content/workers-ai-models/gemma-2b-it-lora.json"
   },
@@ -5469,7 +5469,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/google/gemma-7b-it-lora/",
     "source": "src/content/workers-ai-models/gemma-7b-it-lora.json"
   },
@@ -5544,7 +5544,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/llava-hf/llava-1.5-7b-hf/",
     "source": "src/content/workers-ai-models/llava-1.5-7b-hf.json"
   },
@@ -5559,7 +5559,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/lykon/dreamshaper-8-lcm/",
     "source": "src/content/workers-ai-models/dreamshaper-8-lcm.json"
   },
@@ -5574,7 +5574,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/meta-llama/llama-2-7b-chat-hf-lora/",
     "source": "src/content/workers-ai-models/llama-2-7b-chat-hf-lora.json"
   },
@@ -5589,7 +5589,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/meta/llama-3.1-8b-instruct-fp8/",
     "source": "src/content/workers-ai-models/llama-3.1-8b-instruct-fp8.json"
   },
@@ -5619,7 +5619,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/meta/llama-3.2-1b-instruct/",
     "source": "src/content/workers-ai-models/llama-3.2-1b-instruct.json"
   },
@@ -5634,7 +5634,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/meta/llama-3.2-3b-instruct/",
     "source": "src/content/workers-ai-models/llama-3.2-3b-instruct.json"
   },
@@ -5769,7 +5769,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/moonshotai/kimi-k2.6/",
     "source": "src/content/workers-ai-models/kimi-k2.6.json"
   },
@@ -5784,7 +5784,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/moonshotai/kimi-k2.7-code/",
     "source": "src/content/workers-ai-models/kimi-k2.7-code.json"
   },
@@ -5799,7 +5799,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/myshell-ai/melotts/",
     "source": "src/content/workers-ai-models/melotts.json"
   },
@@ -5814,7 +5814,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/nvidia/nemotron-3-120b-a12b/",
     "source": "src/content/workers-ai-models/nemotron-3-120b-a12b.json"
   },
@@ -5889,7 +5889,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/openai/whisper-tiny-en/",
     "source": "src/content/workers-ai-models/whisper-tiny-en.json"
   },
@@ -5949,7 +5949,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/qwen/qwen3-30b-a3b-fp8/",
     "source": "src/content/workers-ai-models/qwen3-30b-a3b-fp8.json"
   },
@@ -5994,7 +5994,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/qwen/qwq-32b/",
     "source": "src/content/workers-ai-models/qwq-32b.json"
   },
@@ -6009,7 +6009,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/runwayml/stable-diffusion-v1-5-inpainting/",
     "source": "src/content/workers-ai-models/stable-diffusion-v1-5-inpainting.json"
   },
@@ -6024,7 +6024,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/stabilityai/stable-diffusion-xl-base-1.0/",
     "source": "src/content/workers-ai-models/stable-diffusion-xl-base-1.0.json"
   },
@@ -6084,7 +6084,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/zai-org/glm-5.2/",
     "source": "src/content/workers-ai-models/glm-5.2.json"
   },
@@ -6114,7 +6114,7 @@
     "providers": null,
     "provider_details": null,
     "request_formats": null,
-    "planned_deprecation_date": null,
+    "planned_deprecation_date": "2026-11-15",
     "documentation": "https://developers.cloudflare.com/ai/models/@cf/zai-org/glm-5.3-flash/",
     "source": "src/content/workers-ai-models/glm-5.3-flash.json"
   }
