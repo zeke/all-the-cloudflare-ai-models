@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/cloudflare/cloudflare-docs",
-  "revision": "2a3a062e4f07d7e40b2db7447c9d3f9019f7cf13",
+  "revision": "7fc6c618eab1cf1a28dbbadc66b7f09602add391",
   "catalog": "https://developers.cloudflare.com/ai/models/",
   "counts": {
     "workers-ai": 73,
@@ -857,15 +857,15 @@
     },
     {
       "path": "src/content/workers-ai-models/deepseek-r1-distill-qwen-32b.json",
-      "sha": "60f9c9208e4a07f9d695e3102b7adc47b32f2fac"
+      "sha": "c4006a17944638fd3e5853e5565f4eea365d26c0"
     },
     {
       "path": "src/content/workers-ai-models/deepseek-v4-flash-0731.json",
-      "sha": "47dc8689383a43992a47db1c722368fada653a63"
+      "sha": "c9af19d3c04e02541b57c2aac8bd00a54f41ff8d"
     },
     {
       "path": "src/content/workers-ai-models/deepseek-v4-pro-0813.json",
-      "sha": "59119a574ccc090ab14e6794dc75f56d0ec6b89d"
+      "sha": "da103eb8fe18e1f2c349fdfc080a6ba828f62c3d"
     },
     {
       "path": "src/content/workers-ai-models/deepseek-v4.1-flash-1017.json",
@@ -877,11 +877,11 @@
     },
     {
       "path": "src/content/workers-ai-models/dreamshaper-8-lcm.json",
-      "sha": "cea06ec208643b9d32140d350c5d13ab17f89ade"
+      "sha": "1a7d25f61dc2d2ff44b18663795e04a9b3a550dc"
     },
     {
       "path": "src/content/workers-ai-models/embeddinggemma-300m.json",
-      "sha": "126230b811a9a9a469419f6fa9e303f2610410fd"
+      "sha": "24757c871226fd1606dc382ea21a0d488d69237b"
     },
     {
       "path": "src/content/workers-ai-models/eurollm-9b-it.json",
@@ -909,7 +909,7 @@
     },
     {
       "path": "src/content/workers-ai-models/gemma-2b-it-lora.json",
-      "sha": "a0bf24f08d28157c00d9550ad82a702c3f25addc"
+      "sha": "875ff5f98b12f7184b9ec5224ff80c98eb365579"
     },
     {
       "path": "src/content/workers-ai-models/gemma-4-26b-a4b-it.json",
@@ -917,7 +917,7 @@
     },
     {
       "path": "src/content/workers-ai-models/gemma-7b-it-lora.json",
-      "sha": "3086935434c642c759800708c7683c83129281d2"
+      "sha": "8b1b8c357eca6a90e6b1bf503e7976b167b9020d"
     },
     {
       "path": "src/content/workers-ai-models/gemma-sea-lion-v4-27b-it.json",
@@ -929,11 +929,11 @@
     },
     {
       "path": "src/content/workers-ai-models/glm-5.2.json",
-      "sha": "70e2894046b443efc6513bed4940d22aa5ee1150"
+      "sha": "11140cdb87fd9de7aece314c0ba52e6ab2c845be"
     },
     {
       "path": "src/content/workers-ai-models/glm-5.3-flash.json",
-      "sha": "6e5a64eddb206db5bea255035d7638e062c62c07"
+      "sha": "dc57279d9d4ef7e23f83e3748ebdf77cab6eccae"
     },
     {
       "path": "src/content/workers-ai-models/glm-5.3.json",
@@ -957,19 +957,19 @@
     },
     {
       "path": "src/content/workers-ai-models/kimi-k2.6.json",
-      "sha": "9882024a4902b95e1d401fcbc40da730678fecdf"
+      "sha": "73cd1d53aeed621a974e79615e5805091695fa1c"
     },
     {
       "path": "src/content/workers-ai-models/kimi-k2.7-code.json",
-      "sha": "ad9f083b2d2bdb41d53abbab1f7f20517495c04f"
+      "sha": "45e1e34c3e8100c3f559faa4fe5bd56382b09778"
     },
     {
       "path": "src/content/workers-ai-models/llama-2-7b-chat-hf-lora.json",
-      "sha": "d1129a52f2ab8e0d247a42c22a18816031c6a0a3"
+      "sha": "2310758f77205e69f2affdd4217fc16a467c3884"
     },
     {
       "path": "src/content/workers-ai-models/llama-3.1-8b-instruct-fp8.json",
-      "sha": "8249d022cefa7bf8cea0aa735e2ce1ba61c25069"
+      "sha": "c9a5547e7a8cd943db968487504efd7eafc43431"
     },
     {
       "path": "src/content/workers-ai-models/llama-3.2-11b-vision-instruct.json",
@@ -977,11 +977,11 @@
     },
     {
       "path": "src/content/workers-ai-models/llama-3.2-1b-instruct.json",
-      "sha": "eee780b7488ed855eb5d09b91e330ca1368d64a8"
+      "sha": "1b46e87bcb2256cdc8b9c7f20ff210771a0a099a"
     },
     {
       "path": "src/content/workers-ai-models/llama-3.2-3b-instruct.json",
-      "sha": "6637650af6ad995a305ebec29224289539cdd537"
+      "sha": "0233da8fe793240d8bc938785aa51f8926e74810"
     },
     {
       "path": "src/content/workers-ai-models/llama-3.3-70b-instruct-fp8-fast.json",
@@ -997,7 +997,7 @@
     },
     {
       "path": "src/content/workers-ai-models/llava-1.5-7b-hf.json",
-      "sha": "cec5497ead28a5e66ba6355893f42cfc4e4999f4"
+      "sha": "72390cca959ebdff007d2ea907879d922b697cd4"
     },
     {
       "path": "src/content/workers-ai-models/lucid-origin.json",
@@ -1009,7 +1009,7 @@
     },
     {
       "path": "src/content/workers-ai-models/melotts.json",
-      "sha": "1444d351a866e2bf284f0a191a5c055349f179f0"
+      "sha": "be64b5ac479c93f970c8a9e34cd93696440559f8"
     },
     {
       "path": "src/content/workers-ai-models/mistral-7b-instruct-v0.2-lora.json",
@@ -1025,7 +1025,7 @@
     },
     {
       "path": "src/content/workers-ai-models/nemotron-3-120b-a12b.json",
-      "sha": "9ba26996b3774fcca086ecf9fd03b87a9e236d26"
+      "sha": "04bb6fc382de05678887e5d8698fd029272c9a20"
     },
     {
       "path": "src/content/workers-ai-models/nova-3.json",
@@ -1049,7 +1049,7 @@
     },
     {
       "path": "src/content/workers-ai-models/qwen3-30b-a3b-fp8.json",
-      "sha": "7c3a7b8103f7d191faba8ac0d999195e974ef537"
+      "sha": "2182ea6cce275a44f05a6e1fd6f913b45a3ff2eb"
     },
     {
       "path": "src/content/workers-ai-models/qwen3-embedding-0.6b.json",
@@ -1061,7 +1061,7 @@
     },
     {
       "path": "src/content/workers-ai-models/qwq-32b.json",
-      "sha": "9cc563d4887fe0fed7455fa1d32ea7723d37fb3a"
+      "sha": "49d2bba0cc041b059114cd84a72a509faa58ea04"
     },
     {
       "path": "src/content/workers-ai-models/resnet-50.json",
@@ -1073,15 +1073,15 @@
     },
     {
       "path": "src/content/workers-ai-models/stable-diffusion-v1-5-inpainting.json",
-      "sha": "3f125cb11ae4544310d6c04eeeb78161cd89ab72"
+      "sha": "9b64c4620ea8baa71c8d7fb8a3bca64165b084af"
     },
     {
       "path": "src/content/workers-ai-models/stable-diffusion-xl-base-1.0.json",
-      "sha": "860635db5ad8580210eacb6e202e552c0037ad1c"
+      "sha": "efca7a22c643759d970c47c338f78231c3803a77"
     },
     {
       "path": "src/content/workers-ai-models/stable-diffusion-xl-lightning.json",
-      "sha": "743f06ca45448880da1c04ff92fb86896e6b30ed"
+      "sha": "21f7ea84550e05ec91094810efc777c305e206a5"
     },
     {
       "path": "src/content/workers-ai-models/whisper-large-v3-turbo.json",
@@ -1089,7 +1089,7 @@
     },
     {
       "path": "src/content/workers-ai-models/whisper-tiny-en.json",
-      "sha": "99070f69a66014d2bdf29bf03c5c4f0fbb019939"
+      "sha": "6a5d9558529fc8a0ab533b3939fdd37e78aa19d5"
     },
     {
       "path": "src/content/workers-ai-models/whisper.json",

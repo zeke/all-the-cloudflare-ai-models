@@ -2,6 +2,64 @@
 
 Changes to catalog entries and routes. Distinct Cloudflare model IDs are counted exactly; aliases and routes can refer to the same underlying model, so these are not counts of unique underlying models. No-change checks add no entry.
 
+## 2026-11-07: 0 added, 0 removed, 24 changed
+
+Cloudflare [source diff](https://github.com/cloudflare/cloudflare-docs/compare/2a3a062e4f07d7e40b2db7447c9d3f9019f7cf13...7fc6c618eab1cf1a28dbbadc66b7f09602add391).
+
+Catalog entries: 272 (+0); Workers AI: 73 (+0); AI Gateway: 199 (+0).
+Distinct Cloudflare model IDs: 272 (+0).
+
+### Changed
+
+- `"workers-ai:@cf/bytedance/stable-diffusion-xl-lightning"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/deepseek-ai/deepseek-r1-distill-qwen-32b"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/deepseek-ai/deepseek-v4-flash-0731"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/deepseek-ai/deepseek-v4-pro-0813"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/google/embeddinggemma-300m"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/google/gemma-2b-it-lora"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/google/gemma-7b-it-lora"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/llava-hf/llava-1.5-7b-hf"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/lykon/dreamshaper-8-lcm"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/meta-llama/llama-2-7b-chat-hf-lora"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/meta/llama-3.1-8b-instruct-fp8"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/meta/llama-3.2-1b-instruct"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/meta/llama-3.2-3b-instruct"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/moonshotai/kimi-k2.6"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/moonshotai/kimi-k2.7-code"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/myshell-ai/melotts"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/nvidia/nemotron-3-120b-a12b"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/openai/whisper-tiny-en"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/qwen/qwen3-30b-a3b-fp8"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/qwen/qwq-32b"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/runwayml/stable-diffusion-v1-5-inpainting"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/stabilityai/stable-diffusion-xl-base-1.0"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/zai-org/glm-5.2"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+- `"workers-ai:@cf/zai-org/glm-5.3-flash"`
+  - planned_deprecation_date: `"2026-11-15"` → `"2026-11-20"`.
+
 ## 2026-11-06: 0 added, 0 removed, 24 changed
 
 Cloudflare [source diff](https://github.com/cloudflare/cloudflare-docs/compare/3a8808ee6f0863c707ef4cfdef1e0874a7a7f9fa...2a3a062e4f07d7e40b2db7447c9d3f9019f7cf13).
